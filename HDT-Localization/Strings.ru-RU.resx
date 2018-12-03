@@ -1,0 +1,3414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainWindow_Menu_New" xml:space="preserve">
+    <value>Новая</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Druid" xml:space="preserve">
+    <value>Друид</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Hunter" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Mage" xml:space="preserve">
+    <value>Маг</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Priest" xml:space="preserve">
+    <value>Жрец</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Paladin" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Rogue" xml:space="preserve">
+    <value>Разбойник</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Shaman" xml:space="preserve">
+    <value>Шаман</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Warlock" xml:space="preserve">
+    <value>Чернокнижник</value>
+  </data>
+  <data name="MainWindow_Menu_Class_Warrior" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_EditDeck" xml:space="preserve">
+    <value>Изменить колоду</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_EditName" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_EditNotes" xml:space="preserve">
+    <value>Изменить заметку</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_EditTags" xml:space="preserve">
+    <value>Изменить метки</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_QuickSetTag" xml:space="preserve">
+    <value>Назначить метку</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_MoveToArena" xml:space="preserve">
+    <value>Переместить в Арену</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_MoveToContrstucted" xml:space="preserve">
+    <value>Отправить в Собранные</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_MissingCards" xml:space="preserve">
+    <value>Недостающие карты</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_UpdateWeb" xml:space="preserve">
+    <value>Обновление (сеть)</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_OpenWebsite" xml:space="preserve">
+    <value>Открыть сайт</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_OpenHearthStats" xml:space="preserve">
+    <value>Открыть HearthStats</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_Archive" xml:space="preserve">
+    <value>Архивировать</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_Unarchive" xml:space="preserve">
+    <value>Разархивировать</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_DeleteDeck" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_Clone" xml:space="preserve">
+    <value>Клонировать</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_Clone_EntireDeck" xml:space="preserve">
+    <value>Колоду целиком</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_Clone_Version" xml:space="preserve">
+    <value>Выбранную версию</value>
+  </data>
+  <data name="MainWindow_Menu_Deck" xml:space="preserve">
+    <value>Колода</value>
+  </data>
+  <data name="MainWindow_Menu_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Web" xml:space="preserve">
+    <value>Из интернета</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Constructed" xml:space="preserve">
+    <value>Из Режима Игры</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Arena" xml:space="preserve">
+    <value>Из Арены</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Brawl" xml:space="preserve">
+    <value>Из Потасовки</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Other_File" xml:space="preserve">
+    <value>Из файла</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Other_Ids" xml:space="preserve">
+    <value>Из ID</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Other_Clipboard" xml:space="preserve">
+    <value>Из буфера</value>
+  </data>
+  <data name="MainWindow_Menu_Import_Other_LastGame" xml:space="preserve">
+    <value>Из последней игры</value>
+  </data>
+  <data name="MainWindow_Menu_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Hearthstone" xml:space="preserve">
+    <value>В Hearthstone</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Hearthstone_FromWeb" xml:space="preserve">
+    <value>В Hearthstone из сети</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Xml" xml:space="preserve">
+    <value>Сохранить как XML</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Ids" xml:space="preserve">
+    <value>Скопировать ID карт</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Clpiboard" xml:space="preserve">
+    <value>Скопировать названия карт</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Screenshot" xml:space="preserve">
+    <value>В картинку</value>
+  </data>
+  <data name="MainWindow_Menu_Export_Screenshot_Info" xml:space="preserve">
+    <value>В картинку (с инф.)</value>
+  </data>
+  <data name="MainWindow_Menu_Stats" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="MainWindow_Menu_Stats_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="MainWindow_Menu_Stats_Constructed" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="MainWindow_Menu_Replays" xml:space="preserve">
+    <value>Повторы</value>
+  </data>
+  <data name="MainWindow_Menu_Replays_Latest" xml:space="preserve">
+    <value>Последние повторы</value>
+  </data>
+  <data name="MainWindow_Menu_Replays_Stats" xml:space="preserve">
+    <value>Выбрать из статистики</value>
+  </data>
+  <data name="MainWindow_Menu_Replays_File" xml:space="preserve">
+    <value>Загрузить из файла</value>
+  </data>
+  <data name="MainWindow_Menu_Replays_ClaimAccount" xml:space="preserve">
+    <value>Привязать учетную запись</value>
+  </data>
+  <data name="MainWindow_Menu_Replays_MyAccount" xml:space="preserve">
+    <value>Учетная запись</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_Login" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_Dashboard" xml:space="preserve">
+    <value>Новости (сеть)</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_Sync" xml:space="preserve">
+    <value>Синхр. сейчас</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_ForceSync" xml:space="preserve">
+    <value>Принудительная синхронизация</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_SyncOnStart" xml:space="preserve">
+    <value>Синхронизация при запуске</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_UploadDecks" xml:space="preserve">
+    <value>Авто-отправка новых колод</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_UploadGames" xml:space="preserve">
+    <value>Авто-отправка записей игр</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_DeleteDecks" xml:space="preserve">
+    <value>Авто-удаление колод</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_DeleteGames" xml:space="preserve">
+    <value>Авто-удаление игр</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_SyncInBackground" xml:space="preserve">
+    <value>Фоновая синхронизация</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_DeleteSelected" xml:space="preserve">
+    <value>Удалить выбранные колоды</value>
+  </data>
+  <data name="MainWindow_Menu_HearthStats_Logout" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="MainWindow_Menu_Plugins" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="MainWindow_Menu_Plugins_Empty" xml:space="preserve">
+    <value>Пусто...</value>
+  </data>
+  <data name="MainWindow_TitleBar_Options" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="MainWindow_TitleBar_Help" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="MainWindow_TitleBar_Donate" xml:space="preserve">
+    <value>Поддержать</value>
+  </data>
+  <data name="MainWindow_Flyout_Options_Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="MainWindow_Flyout_Help_Header" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="MainWindow_Flyout_OpponentDeck_Header" xml:space="preserve">
+    <value>Колода противника</value>
+  </data>
+  <data name="MainWindow_Flyout_SortFilter_Header" xml:space="preserve">
+    <value>Фильтр колод</value>
+  </data>
+  <data name="MainWindow_Flyout_Notes_Header" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="MainWindow_Flyout_SetTags_Header" xml:space="preserve">
+    <value>Выбрать метки</value>
+  </data>
+  <data name="MainWindow_Flyout_Errors_Header" xml:space="preserve">
+    <value>Ошибки</value>
+  </data>
+  <data name="MainWindow_Flyout_UpdateNotes_Header" xml:space="preserve">
+    <value>Описание обновления</value>
+  </data>
+  <data name="MainWindow_Flyout_DeckImporting_Header" xml:space="preserve">
+    <value>Импорт колоды</value>
+  </data>
+  <data name="MainWindow_Flyout_Stats_Move" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="MainWindow_Flyout_Stats_Header" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="MainWindow_StatusBarUpdate_NewUpdateAvailable" xml:space="preserve">
+    <value>Доступно свежее обновление</value>
+  </data>
+  <data name="MainWindow_StatusBarUpdate_ClickToUpdate" xml:space="preserve">
+    <value>Нажмите для обновления</value>
+  </data>
+  <data name="MainWindow_Button_StartHearthstone" xml:space="preserve">
+    <value>Запуск Battle.net / Hearthstone</value>
+  </data>
+  <data name="MainWindow_Label_SelectedVersion" xml:space="preserve">
+    <value>Выбранная версия:</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Label_Cards" xml:space="preserve">
+    <value>Карты:</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_Save_Current" xml:space="preserve">
+    <value>(текущую)</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_Save_New" xml:space="preserve">
+    <value>Сохранить как…</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_Filter" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Cost" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set" xml:space="preserve">
+    <value>Набор</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Cost_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Type_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Type_Class" xml:space="preserve">
+    <value>Только классовые</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Type_Neutral" xml:space="preserve">
+    <value>Только общие</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Basic" xml:space="preserve">
+    <value>Базовые</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Classic" xml:space="preserve">
+    <value>Классические</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Promo" xml:space="preserve">
+    <value>Промо</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Naxx" xml:space="preserve">
+    <value>Наксрамас</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Gvg" xml:space="preserve">
+    <value>Гоблины и гномы</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Brm" xml:space="preserve">
+    <value>Черная Гора</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Tgt" xml:space="preserve">
+    <value>Большой турнир</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Loe" xml:space="preserve">
+    <value>Лига Исследователей</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Wotog" xml:space="preserve">
+    <value>Пробуждение Древних Богов</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Kara" xml:space="preserve">
+    <value>Вечеринка в Каражане</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_TextBox_Name_Watermark" xml:space="preserve">
+    <value>Имя...</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Warning_ToolTip_NameAlreadyExists" xml:space="preserve">
+    <value>Имя уже существует</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_CheckBox_IncludeWild" xml:space="preserve">
+    <value>Включить вольные карты</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_CheckBox_CardLimit" xml:space="preserve">
+    <value>Ограничить число карт</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Button_VerionHistory" xml:space="preserve">
+    <value>Показать историю версий</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_History_Header" xml:space="preserve">
+    <value>История колоды:</value>
+  </data>
+  <data name="MainWindow_NewsBar_Header" xml:space="preserve">
+    <value>Новости:</value>
+  </data>
+  <data name="Options_Search_Header" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Options_CheckBoxAdvanced" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="Options_Overlay_Header" xml:space="preserve">
+    <value>Интерфейс</value>
+  </data>
+  <data name="Options_Overlay_General_Header" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Options_Overlay_Windows_Header" xml:space="preserve">
+    <value>Окна</value>
+  </data>
+  <data name="Options_Overlay_Player_Header" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Header" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Header" xml:space="preserve">
+    <value>Взаимодействие</value>
+  </data>
+  <data name="Options_Overlay_Streaming_Header" xml:space="preserve">
+    <value>Трансляция</value>
+  </data>
+  <data name="Options_Tracker_Header" xml:space="preserve">
+    <value>Трекер</value>
+  </data>
+  <data name="Options_Tracker_General_Header" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Options_Tracker_Stats_Header" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="Options_Tracker_Replays_Header" xml:space="preserve">
+    <value>Повторы</value>
+  </data>
+  <data name="Options_Tracker_Exporting_Header" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Options_Tracker_Importing_Header" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Header" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Header" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Header" xml:space="preserve">
+    <value>Клавиши</value>
+  </data>
+  <data name="Options_Tracker_Backups_Header" xml:space="preserve">
+    <value>Резервные копии</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Header" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Options_Tracker_Settings_Header" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Options_Search_TextBox_Watermark" xml:space="preserve">
+    <value>Поиск опции по имени/описанию…</value>
+  </data>
+  <data name="Options_Search_SearchButton" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_Player" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_Opponent" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_Topmost" xml:space="preserve">
+    <value>Поверх всех окон</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_HsForeground" xml:space="preserve">
+    <value>Когда HS на переднем плане</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_CardTooltips" xml:space="preserve">
+    <value>Описание карт</value>
+  </data>
+  <data name="Options_DeckWindows_CheckBox_Timer" xml:space="preserve">
+    <value>Таймер</value>
+  </data>
+  <data name="Options_DeckWindows_Label_Background" xml:space="preserve">
+    <value>Фон:</value>
+  </data>
+  <data name="Options_DeckWindows_Label_CustomHex" xml:space="preserve">
+    <value>Ручной ввод (HEX):</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideCompletely" xml:space="preserve">
+    <value>Скрыть (полностью)</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideInMenu" xml:space="preserve">
+    <value>Скрывать в меню</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideInSpectator" xml:space="preserve">
+    <value>Скрывать в режиме зрителя</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideInBackground" xml:space="preserve">
+    <value>Скрывать при сворачивании HS</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideDecks" xml:space="preserve">
+    <value>Скрыть колоды</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideTimers" xml:space="preserve">
+    <value>Скрыть таймер</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideCardAge" xml:space="preserve">
+    <value>Скрыть ход взятия карты</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideCardMarks" xml:space="preserve">
+    <value>Скрыть метки на картах</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_HideSecrets" xml:space="preserve">
+    <value>Скрыть секреты</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_CardTooltips" xml:space="preserve">
+    <value>Подсказки при наведении на карту</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_SecretsOnly" xml:space="preserve">
+    <value>Только для секретов</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_AdditionalCardTooltips" xml:space="preserve">
+    <value>Добавочные подсказки карт</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_CardAnimations" xml:space="preserve">
+    <value>Использовать анимацию карт</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_CardMarkTooltips" xml:space="preserve">
+    <value>Подсказки для меток на картах</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_Secrets" xml:space="preserve">
+    <value>Затенять проверенные секреты</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_NoResetAfterGame" xml:space="preserve">
+    <value>Не сбрасывать колоду после игры</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_GoldProgress" xml:space="preserve">
+    <value>Всегда отображать прогресс получения золота (в меню)</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_FlavorText" xml:space="preserve">
+    <value>Показать описание карты при наведении курсора</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_BatteryStatus" xml:space="preserve">
+    <value>Показать состояние аккумулятора</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_BatteryStatus_Percent" xml:space="preserve">
+    <value>Показать %</value>
+  </data>
+  <data name="Options_Overlay_General_Label_Opacity" xml:space="preserve">
+    <value>Прозрачность:</value>
+  </data>
+  <data name="Options_Overlay_General_Label_MoveResize" xml:space="preserve">
+    <value>Изм. размер/расположение интерфейса:</value>
+  </data>
+  <data name="Options_Overlay_General_Button_Reset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="Options_Overlay_General_Label_Reset" xml:space="preserve">
+    <value>Сбросить настройки расположения:</value>
+  </data>
+  <data name="Options_Overlay_General_Button_UnlockOverlay" xml:space="preserve">
+    <value>Разблок. интерфейс</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Label_Warning" xml:space="preserve">
+    <value>Предупреждение:</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Label_Freezing" xml:space="preserve">
+    <value>Может влиять на плавность движения мыши</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_CheckBox_ForceOn" xml:space="preserve">
+    <value>Оставлять включенным (не используйте без необходимости)</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Label_Features" xml:space="preserve">
+    <value>Функции:</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_CheckBox_FriendsList" xml:space="preserve">
+    <value>Скрыть колоду при просмотре друзей</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_CheckBoxSecrets" xml:space="preserve">
+    <value>Затенять секреты при нажатии</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Label_Note" xml:space="preserve">
+    <value>Примечание: может не работать, если включена опция «Настройки → Интерфейс → Общие → Затенять проверенные секреты».</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Switch_Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="Options_Overlay_Interactivity_Switch_Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_SameScaling" xml:space="preserve">
+    <value>Использовать один размер для обоих игроков</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_Scaling" xml:space="preserve">
+    <value>Размер:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_Opacity" xml:space="preserve">
+    <value>Прозрачность:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_SecretScaling" xml:space="preserve">
+    <value>Размер секретов:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_LabelSecretOpacity" xml:space="preserve">
+    <value>Прозрачность секретов:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_Cthun" xml:space="preserve">
+    <value>Счетчик К'Туна:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_Yogg" xml:space="preserve">
+    <value>Счетчик заклинаний:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_Attack" xml:space="preserve">
+    <value>Показать счетчик атаки со стола</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_CenterVertically" xml:space="preserve">
+    <value>Разместить колоду по центру (вертикально)</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_CreatedCards" xml:space="preserve">
+    <value>Отображать созданные карты</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_DiscardedCards" xml:space="preserve">
+    <value>Выделять сброшенные карты</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_SameScaling" xml:space="preserve">
+    <value>Использовать один размер для обоих игроков</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_Scaling" xml:space="preserve">
+    <value>Размер:</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_Opacity" xml:space="preserve">
+    <value>Прозрачность:</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_Cthun" xml:space="preserve">
+    <value>Счетчик К'Туна:</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_Yogg" xml:space="preserve">
+    <value>Счетчик заклинаний:</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_Attack" xml:space="preserve">
+    <value>Показать счетчик атаки со стола</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_CenterVertically" xml:space="preserve">
+    <value>Разместить колоду по центру (вертикально)</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_HighlightHand" xml:space="preserve">
+    <value>Выделять карты в руке</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_HighlightDrawn" xml:space="preserve">
+    <value>Выделять взятую карту</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_RemoveZero" xml:space="preserve">
+    <value>Скрывать карты, которых не осталось</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_IncludeCreated" xml:space="preserve">
+    <value>Отображать созданные карты (например Монетку)</value>
+  </data>
+  <data name="Options_Overlay_Streaming_CheckBox_Show" xml:space="preserve">
+    <value>Включить окно интерфейса для захвата изображения</value>
+  </data>
+  <data name="Options_Overlay_Streaming_CheckBox_DisableTransitions" xml:space="preserve">
+    <value>Отключить смену прозрачности карт (рекомендуется)</value>
+  </data>
+  <data name="Options_Overlay_Streaming_Label_Background" xml:space="preserve">
+    <value>Фон (хромакей):</value>
+  </data>
+  <data name="Options_Overlay_Streaming_Text1" xml:space="preserve">
+    <value>Добавляет копию интерфейса на заднем плане с поддержкой хромакея.</value>
+  </data>
+  <data name="Options_Overlay_Streaming_Text2" xml:space="preserve">
+    <value>Примечание: копия интерфейса может появиться поверх Hearthstone. Кликните по ней, чтобы скрыть до конца сессии.</value>
+  </data>
+  <data name="Options_Overlay_Streaming_Hyperlink_Wiki" xml:space="preserve">
+    <value>Показать руководство (откроется в браузере)</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_Language" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_Theme" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_Accent" xml:space="preserve">
+    <value>Оттенок:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_ClassIcons" xml:space="preserve">
+    <value>Иконки классов:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_CardTheme" xml:space="preserve">
+    <value>Тема карт:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_DeckLayout" xml:space="preserve">
+    <value>Размещение списка колод:</value>
+  </data>
+  <data name="Options_Tracker_Appearance_CheckBox_RarityFrames" xml:space="preserve">
+    <value>Цвет рамки соответствует редкости карты</value>
+  </data>
+  <data name="Options_Tracker_Appearance_CheckBox_RarityGems" xml:space="preserve">
+    <value>Цвет кристалла соответствует редкости карты</value>
+  </data>
+  <data name="Options_Tracker_Appearance_CheckBox_RedGreenStats" xml:space="preserve">
+    <value>Красный/зеленый цвета в статистике</value>
+  </data>
+  <data name="Options_Tracker_Appearance_CheckBox_Metro" xml:space="preserve">
+    <value>Анимации вида METRO</value>
+  </data>
+  <data name="Options_Tracker_Backups_Button_Restore" xml:space="preserve">
+    <value>Восстановить из выбранной</value>
+  </data>
+  <data name="Options_Tracker_Backups_Button_Create" xml:space="preserve">
+    <value>Создать новую</value>
+  </data>
+  <data name="Options_Tracker_Backups_Button_Delete" xml:space="preserve">
+    <value>Удалить выбранную</value>
+  </data>
+  <data name="Options_Tracker_Backups_Text_Description" xml:space="preserve">
+    <value>Резервные копии создаются автоматически при первом запуске за день. Они содержат колоды, записи игр и конфигурацию. Если сохранено больше 7 автоматических копий, самые старые удаляются. Так вы сможете откатиться как минимум на неделю.</value>
+  </data>
+  <data name="Options_Tracker_Backups_Button_BackupDir" xml:space="preserve">
+    <value>Открыть каталог резервных копий</value>
+  </data>
+  <data name="Options_Tracker_Exporting_Label_Speed" xml:space="preserve">
+    <value>Скорость:</value>
+  </data>
+  <data name="Options_Tracker_Exporting_Label_Wait" xml:space="preserve">
+    <value>Ожидание</value>
+  </data>
+  <data name="Options_Tracker_Exporting_Label_Wait2" xml:space="preserve">
+    <value>секунды до начала</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_Golden" xml:space="preserve">
+    <value>Приоритет золотым картам</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_DeckName" xml:space="preserve">
+    <value>Назвать колоду</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_Version" xml:space="preserve">
+    <value>Добавлять версию к имени колоды</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_ClearCards" xml:space="preserve">
+    <value>Авто-очистка карт</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_ClearFilters" xml:space="preserve">
+    <value>Авто-очистка фильтров</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_ClearSearchbox" xml:space="preserve">
+    <value>Очищать строку поиска между картами</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_Clipbard" xml:space="preserve">
+    <value>Вставить имена из буфера</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_Dialog" xml:space="preserve">
+    <value>Показ диалога перед экспортом</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_Alerts" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="Options_Tracker_General_Label_CardLanguage" xml:space="preserve">
+    <value>Язык карт</value>
+  </data>
+  <data name="Options_Tracker_General_Label_Primary" xml:space="preserve">
+    <value>Основной:</value>
+  </data>
+  <data name="Options_Tracker_General_Label_Secondary" xml:space="preserve">
+    <value>Дополнительный:</value>
+  </data>
+  <data name="Options_Tracker_General_Label_Tooltips" xml:space="preserve">
+    <value>(отображается в подсказках)</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_Font" xml:space="preserve">
+    <value>Базовый шрифт для не латинских языков</value>
+  </data>
+  <data name="Options_Tracker_General_Label_Restart" xml:space="preserve">
+    <value>Перезапустите, чтобы изменения вступили в силу!</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_AutoUse" xml:space="preserve">
+    <value>Отключить ручной выбор колоды</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_Sorting" xml:space="preserve">
+    <value>Сортировка карт: сначала классовые</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_CardTooltips" xml:space="preserve">
+    <value>Подсказки при наведении на карту</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_ManaCurve" xml:space="preserve">
+    <value>Показать кривую маны</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_FullTextSearch" xml:space="preserve">
+    <value>Поиск по тексту карт в редакторе колод</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_UpperCaseDeckNames" xml:space="preserve">
+    <value>Имена колод большими буквами</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_AutoArchiveArena" xml:space="preserve">
+    <value>После завершения Арены архивировать колоду</value>
+  </data>
+  <data name="Options_Tracker_General_ComboBox_DeckDateType" xml:space="preserve">
+    <value>Дата на колодах:</value>
+  </data>
+  <data name="Options_Tracker_General_Label_Format" xml:space="preserve">
+    <value>Формат:</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Table_Mod" xml:space="preserve">
+    <value>Модификатор</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Table_Key" xml:space="preserve">
+    <value>Клавиша</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Table_Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Button_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_LabelNew" xml:space="preserve">
+    <value>Назначить клавишу</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Label_Mod" xml:space="preserve">
+    <value>Модификатор:</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Label_Key" xml:space="preserve">
+    <value>Клавиша:</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Label_Action" xml:space="preserve">
+    <value>Действие:</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Button_AddNew" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Options_Tracker_Hotkeys_Text_Key_Watermark" xml:space="preserve">
+    <value>Нажмите клавишу</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_Constructed" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="Options_Tracker_Importing_Constructed_Description" xml:space="preserve">
+    <value>Проверяет ваши колоды на наличие изменений, всякий раз, когда вы заходите в меню «Игра».</value>
+  </data>
+  <data name="Options_Tracker_Importing_Constructed_CheckBox_Import" xml:space="preserve">
+    <value>Авто-импорт новых колод</value>
+  </data>
+  <data name="Options_Tracker_Importing_Constructed_CheckBox_Update" xml:space="preserve">
+    <value>Синхронизация изменений колод</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_ArenaBehavior" xml:space="preserve">
+    <value>Режим импорта:</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_ArenaTemplates" xml:space="preserve">
+    <value>Шаблон имени для колод Арены</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_TemplatesFormat" xml:space="preserve">
+    <value>Используй в шаблоне:</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_TemplatesPreview" xml:space="preserve">
+    <value>Пример:</value>
+  </data>
+  <data name="Options_Tracker_Importing_Button_Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_Web" xml:space="preserve">
+    <value>Сетевые колоды</value>
+  </data>
+  <data name="Options_Tracker_Importing_Web_CheckBox_Tags" xml:space="preserve">
+    <value>Помечать импортированные колоды</value>
+  </data>
+  <data name="Options_Tracker_Importing_Web_CheckBox_AutoSave" xml:space="preserve">
+    <value>Авто-сохранение импортированных колод</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_GameResult" xml:space="preserve">
+    <value>Результат игры</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_ShowNotifications" xml:space="preserve">
+    <value>Показать уведомления</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_Duration" xml:space="preserve">
+    <value>Показ:</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_Duration2" xml:space="preserve">
+    <value>секунды</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_ArenaReward" xml:space="preserve">
+    <value>Уточнить награду при завершении Арены</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_NoteDialog" xml:space="preserve">
+    <value>Показывать окно для заметок после каждой партии</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_NoteDialog_WaitMenu" xml:space="preserve">
+    <value>Дожидаться возврата в меню</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Button_Avilable" xml:space="preserve">
+    <value>Доступные расширения</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Button_Folder" xml:space="preserve">
+    <value>Папка расширений</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Switch_Enabled" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Switch_Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="Options_Tracker_Plugins_Label_CreatedBy" xml:space="preserve">
+    <value>Создатель</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_ShareNotification" xml:space="preserve">
+    <value>Показывать уведомление об отправке</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Upload" xml:space="preserve">
+    <value>Автоматически отправлять повторы:</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Ranked" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Casual" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Brawl" xml:space="preserve">
+    <value>Потасовка</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Friendly" xml:space="preserve">
+    <value>Дружеская дуэль</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_AdventurePractice" xml:space="preserve">
+    <value>Приключения / Тренировка</value>
+  </data>
+  <data name="Options_Tracker_Replays_CheckBox_Spectator" xml:space="preserve">
+    <value>Режим Зрителя</value>
+  </data>
+  <data name="Options_Tracker_Replays_Label_AccountStatus" xml:space="preserve">
+    <value>Состояние учетной записи:</value>
+  </data>
+  <data name="Options_Tracker_Replays_Button_Claim" xml:space="preserve">
+    <value>Привязать учетную запись</value>
+  </data>
+  <data name="Options_Tracker_Replays_Claim_Description" xml:space="preserve">
+    <value>Войти через Battle.net на HSReplay.net, чтобы привязать повторы. Запустится браузер.</value>
+  </data>
+  <data name="Options_Tracker_Settings_Label_SubmitData" xml:space="preserve">
+    <value>Отправлять анонимные данные</value>
+  </data>
+  <data name="Options_Tracker_Settings_Analytics_Description" xml:space="preserve">
+    <value>Будет передаваться лишь самая базовая информация, которая поможет улучшить HDT.</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_SaveConfigAppData" xml:space="preserve">
+    <value>Сохранение настроек в AppData</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_SaveDataAppData" xml:space="preserve">
+    <value>Сохранение данных в AppData</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_StartWithWindows" xml:space="preserve">
+    <value>Автозапуск при входе в Windows</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_StartMinimized" xml:space="preserve">
+    <value>Запускать в свернутом виде</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_MinimizeToTray" xml:space="preserve">
+    <value>Скрыть в трей при сворачивании</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_Splashscreen" xml:space="preserve">
+    <value>Показывать логотип при загрузке</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_CloseWithHearthstone" xml:space="preserve">
+    <value>Закрывать с Hearthstone</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_StartHearthstone" xml:space="preserve">
+    <value>Запускать Hearthstone вместе с HDT</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_Updates" xml:space="preserve">
+    <value>Проверка обновлений (РКН может блокировать)</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_BetaUpdates" xml:space="preserve">
+    <value>Проверка β-обновлений</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_AdvancedWindowSearch" xml:space="preserve">
+    <value>Расширенное детектирование игры</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_AltScreenCapture" xml:space="preserve">
+    <value>Альтернативный захват экрана</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_Newsbar" xml:space="preserve">
+    <value>Отобразить панель новостей</value>
+  </data>
+  <data name="Options_Tracker_Settings_Button_HearthstonePath" xml:space="preserve">
+    <value>указать каталог Hearthstone</value>
+  </data>
+  <data name="Options_Tracker_Settings_Button_AppData" xml:space="preserve">
+    <value>открыть каталог AppData</value>
+  </data>
+  <data name="Options_Tracker_Settings_Button_DataPath" xml:space="preserve">
+    <value>указать каталог с данными</value>
+  </data>
+  <data name="Options_Tracker_Settings_Button_LogDirectory" xml:space="preserve">
+    <value>указать путь к журналам Hearthstone</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Record" xml:space="preserve">
+    <value>Записывать:</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Ranked" xml:space="preserve">
+    <value>Рейтинговый</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Brawl" xml:space="preserve">
+    <value>Потасовка</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Casual" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Friendly" xml:space="preserve">
+    <value>Дружеская дуэль</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_AdventurePractive" xml:space="preserve">
+    <value>Приключения / Тренировка</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Spectator" xml:space="preserve">
+    <value>Режим Зрителя</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Display" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_DecksOverlay" xml:space="preserve">
+    <value>(в колодах и в интерфейсе)</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Versions" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Mode" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Timeframe" xml:space="preserve">
+    <value>Период времени:</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_Timeframe_Since" xml:space="preserve">
+    <value>Начиная с:</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_DiscardNoMatch" xml:space="preserve">
+    <value>Отбросить запись, если карты не соответствут</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_AskDiscard" xml:space="preserve">
+    <value>Уточнить перед отбрасыванием</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_DiscardZeroTurns" xml:space="preserve">
+    <value>Отбрасывать игры без ходов</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_RecordLocalReplays" xml:space="preserve">
+    <value>Сохранять повторы локально</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_KeepStatsWhenDeleting" xml:space="preserve">
+    <value>Хранить статистику удаленной колоды*</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_KeepStatsWhenDeleting_Tooltip" xml:space="preserve">
+    <value>Это переместит статистику в «колоду класса по умолчанию» (туда же где хранятся матчи в режиме без колоды). Таким образом, выступления пропадут из статистики Арены при удалении колоды Арены!</value>
+  </data>
+  <data name="Options_Tracker_Stats_CheckBox_StatsWindow" xml:space="preserve">
+    <value>Открывать статистику в отдельном окне</value>
+  </data>
+  <data name="Options_Tracker_Settings_Label_Analytics" xml:space="preserve">
+    <value>Аналитика</value>
+  </data>
+  <data name="DeckPicker_Text_Search_Watermark" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Use" xml:space="preserve">
+    <value>Использовать колоду</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Deck" xml:space="preserve">
+    <value>Редактировать колоду</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Name" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Notes" xml:space="preserve">
+    <value>Изменить заметку</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Tags" xml:space="preserve">
+    <value>Редактировать метки</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_QuickSetTags" xml:space="preserve">
+    <value>Назначить метку</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_MoveToArena" xml:space="preserve">
+    <value>Отправить в Арену</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_MoveToConstructed" xml:space="preserve">
+    <value>Отправить в Собранные</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_MissingCards" xml:space="preserve">
+    <value>Недостающие карты</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Update" xml:space="preserve">
+    <value>Обновление (сеть)</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_OpenWebsite" xml:space="preserve">
+    <value>Открыть сайт</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_OpenHearthstats" xml:space="preserve">
+    <value>Открыть HearthStats</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Archive" xml:space="preserve">
+    <value>Архивировать</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Unarchive" xml:space="preserve">
+    <value>Разархивировать</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Clone" xml:space="preserve">
+    <value>Клонировать</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Clone_Deck" xml:space="preserve">
+    <value>Колоду целиком</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Clone_Version" xml:space="preserve">
+    <value>Выбранную версию</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_LinkUrl" xml:space="preserve">
+    <value>Ссылка (устаревшее)</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_LinkNewUrl" xml:space="preserve">
+    <value>Новая ссылка</value>
+  </data>
+  <data name="Stats_Arena_Advanced_Label_Note" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="Stats_Arena_Advanced_Warning" xml:space="preserve">
+    <value>Графики могут отображаться с задержкой. Нажмите для обновления.</value>
+  </data>
+  <data name="Stats_Arena_Advanced_Label_Distribution" xml:space="preserve">
+    <value>Распределение классов по числу побед</value>
+  </data>
+  <data name="Stats_Arena_Advanced_Label_WinLoss" xml:space="preserve">
+    <value>Число побед/поражений против класса</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_Runs" xml:space="preserve">
+    <value>Выступлений:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_PercentTotal" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_TotalGames" xml:space="preserve">
+    <value>Всего партий:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_HoursPlayed" xml:space="preserve">
+    <value>Всего часов:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_AverageWins" xml:space="preserve">
+    <value>Побед в среднем:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_Winrate" xml:space="preserve">
+    <value>Доля побед:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_BestRun" xml:space="preserve">
+    <value>Лучшее выступление:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_BestRunFallback" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_BestMatchup" xml:space="preserve">
+    <value>Лучший противник:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_BestMatchupFallback" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_WorstMatchup" xml:space="preserve">
+    <value>Худший противник:</value>
+  </data>
+  <data name="Stats_Arena_ClassStats_Label_WorstMatchupFallback" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Gold" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Gold_Total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Gold_Average" xml:space="preserve">
+    <value>В среднем:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Gold_Spent" xml:space="preserve">
+    <value>Потрачено:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Dust" xml:space="preserve">
+    <value>Пыль</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Dust_Total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Dust_Average" xml:space="preserve">
+    <value>В среднем:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs" xml:space="preserve">
+    <value>Комплекты карт</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Average" xml:space="preserve">
+    <value>В среднем:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Classic" xml:space="preserve">
+    <value>Классические:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Gvg" xml:space="preserve">
+    <value>Гоблины и гномы:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Tgt" xml:space="preserve">
+    <value>Большой турнир:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Wotog" xml:space="preserve">
+    <value>Пробуждение Древних Богов:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Cards" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Cards_Total" xml:space="preserve">
+    <value>Всего:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Cards_Average" xml:space="preserve">
+    <value>В среднем:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Cards_Golden" xml:space="preserve">
+    <value>Золотые:</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Cards_Golden_Average" xml:space="preserve">
+    <value>В среднем:</value>
+  </data>
+  <data name="Stats_Arena_Runs_Label" xml:space="preserve">
+    <value>Выступления на Арене</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Class" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Started" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Wins" xml:space="preserve">
+    <value>Победы</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Losses" xml:space="preserve">
+    <value>Поражения</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Gold" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Dust" xml:space="preserve">
+    <value>Пыль</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Packs" xml:space="preserve">
+    <value>Комплекты</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Cards" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Region" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_EditRewards" xml:space="preserve">
+    <value>Исправить награды</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_Deck" xml:space="preserve">
+    <value>Смотреть свою колоду</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_OpponentDeck" xml:space="preserve">
+    <value>Колода противника</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_Replay" xml:space="preserve">
+    <value>Смотреть повтор</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_AddGame" xml:space="preserve">
+    <value>Добавить игру</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_EditGame" xml:space="preserve">
+    <value>Исправить игру</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Button_DeleteGame" xml:space="preserve">
+    <value>Удалить игру</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Vs" xml:space="preserve">
+    <value>Против</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Started" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Result" xml:space="preserve">
+    <value>Итог</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Turns" xml:space="preserve">
+    <value>Ходы</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Coin" xml:space="preserve">
+    <value>Монета</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Replay" xml:space="preserve">
+    <value>Повтор</value>
+  </data>
+  <data name="Stats_Arena_Runs_Table_Game_Note" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Charts" xml:space="preserve">
+    <value>Графики</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Played" xml:space="preserve">
+    <value>Выступления</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Opponents" xml:space="preserve">
+    <value>Противники</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_AverageWinsClass" xml:space="preserve">
+    <value>В среднем побед классом</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Wins" xml:space="preserve">
+    <value>Выступления по числу побед</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Highlights" xml:space="preserve">
+    <value>Основные моменты</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Classes" xml:space="preserve">
+    <value>Классы</value>
+  </data>
+  <data name="Stats_Arena_Summary_Label_Rewards" xml:space="preserve">
+    <value>Награды</value>
+  </data>
+  <data name="Stats_Arena_Summary_Highlights_Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="Stats_Arena_Summary_Highlights_Best" xml:space="preserve">
+    <value>Лучший</value>
+  </data>
+  <data name="Stats_Arena_Summary_Highlights_Worst" xml:space="preserve">
+    <value>Худший</value>
+  </data>
+  <data name="Stats_Arena_Summary_Highlights_MostPicked" xml:space="preserve">
+    <value>Часто выбираемый</value>
+  </data>
+  <data name="Stats_Arena_Summary_Highlights_LeastPicked" xml:space="preserve">
+    <value>Редко выбираемый</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Druid" xml:space="preserve">
+    <value>Друид</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Hunter" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Mage" xml:space="preserve">
+    <value>Маг</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Paladin" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Priest" xml:space="preserve">
+    <value>Жрец</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Rogue" xml:space="preserve">
+    <value>Разбойник</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Shaman" xml:space="preserve">
+    <value>Шаман</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Warlock" xml:space="preserve">
+    <value>Чернокнижник</value>
+  </data>
+  <data name="Stats_Arena_Summary_Classes_Warrior" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="Stats_Constructed_Charts_Label_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="Stats_Constructed_Charts_ChartTitle_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="Stats_Constructed_Charts_Label_ByClass" xml:space="preserve">
+    <value>По классам</value>
+  </data>
+  <data name="Stats_Constructed_Charts_Label_WinrateAs" xml:space="preserve">
+    <value>Доля побед классом</value>
+  </data>
+  <data name="Stats_Constructed_Charts_Label_WinrateAgainst" xml:space="preserve">
+    <value>Доля побед против класса</value>
+  </data>
+  <data name="Stats_Constructed_DeckDetailsTable_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_Deck" xml:space="preserve">
+    <value>Колода:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_Winrate" xml:space="preserve">
+    <value>Доля побед:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_TimePlayed" xml:space="preserve">
+    <value>Время игры:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_AverageGame" xml:space="preserve">
+    <value>Средняя игра:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_BestMatchup" xml:space="preserve">
+    <value>Лучший противник:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_BestMatchupFallback" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_WorstMatchup" xml:space="preserve">
+    <value>Худший противник:</value>
+  </data>
+  <data name="Stats_Constructed_DeckHightlights_Label_WorstMatchupFallback" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Stats_Constructed_Games_Label_Matches" xml:space="preserve">
+    <value>Бои</value>
+  </data>
+  <data name="Stats_Constructed_Games_Button_AddGame" xml:space="preserve">
+    <value>Добавить игру в текущую колоду</value>
+  </data>
+  <data name="Stats_Constructed_Games_Button_Move" xml:space="preserve">
+    <value>Переместить выбранное</value>
+  </data>
+  <data name="Stats_Constructed_Games_Button_Delete" xml:space="preserve">
+    <value>Удалить выбранное</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Deck" xml:space="preserve">
+    <value>Колода</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Class" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Vs" xml:space="preserve">
+    <value>Против</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Result" xml:space="preserve">
+    <value>Итог</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Mode" xml:space="preserve">
+    <value>Режим</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Format" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Rank" xml:space="preserve">
+    <value>Ранг</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Turns" xml:space="preserve">
+    <value>Ходы</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Coin" xml:space="preserve">
+    <value>Монета</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Started" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Duration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Region" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Replay" xml:space="preserve">
+    <value>Повтор</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Note" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_Replay" xml:space="preserve">
+    <value>Повтор</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_OpponentDeck" xml:space="preserve">
+    <value>Колода противника</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_SelectDeck" xml:space="preserve">
+    <value>Выбрать колоду</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_Note" xml:space="preserve">
+    <value>Заметка</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_Move" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="Stats_Constructed_Games_Table_Button_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Stats_Constructed_MatchupTable_Label" xml:space="preserve">
+    <value>Ты\против</value>
+  </data>
+  <data name="Stats_Constructed_MatchupTable_Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Charts" xml:space="preserve">
+    <value>Графики</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="Stats_Constructed_Summary_ChartTitle_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Played" xml:space="preserve">
+    <value>Выступления</value>
+  </data>
+  <data name="Stats_Constructed_Summary_ChartTitle_Played" xml:space="preserve">
+    <value>Сыграно (%)</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Opponents" xml:space="preserve">
+    <value>Противники</value>
+  </data>
+  <data name="Stats_Constructed_Summary_ChartTitle_Opponents" xml:space="preserve">
+    <value>Противники</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Highlights" xml:space="preserve">
+    <value>Основные моменты</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_HighestRank" xml:space="preserve">
+    <value>Высший ранг:</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_MostPlayedDeck" xml:space="preserve">
+    <value>Самая используемая колода</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_BestDeck" xml:space="preserve">
+    <value>Лучшая колода</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_FastestDeck" xml:space="preserve">
+    <value>Самая быстрая колода</value>
+  </data>
+  <data name="Stats_Constructed_Summary_Label_SlowestDeck" xml:space="preserve">
+    <value>Самая медленная колода</value>
+  </data>
+  <data name="Stats_Constructed_Summary_CheckBox_Percent" xml:space="preserve">
+    <value>Показывать в %</value>
+  </data>
+  <data name="Stats_CheckBox_ShowLegends" xml:space="preserve">
+    <value>Показывать легенду</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_Time" xml:space="preserve">
+    <value>Время:</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_Start" xml:space="preserve">
+    <value>С:</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_End" xml:space="preserve">
+    <value>По:</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_Season" xml:space="preserve">
+    <value>Сезоны:</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_Class" xml:space="preserve">
+    <value>Класс:</value>
+  </data>
+  <data name="Stats_Arena_Filters_Label_Region" xml:space="preserve">
+    <value>Регион:</value>
+  </data>
+  <data name="Stats_Arena_Filters_CheckBox_Archive" xml:space="preserve">
+    <value>Включая архивные игры</value>
+  </data>
+  <data name="ArenaRewards_Label_Gold" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="ArenaRewards_Label_Gold_Tooltip" xml:space="preserve">
+    <value>Можно ввести несколько чисел, например, 50+125</value>
+  </data>
+  <data name="ArenaRewards_Label_Dust" xml:space="preserve">
+    <value>Пыль</value>
+  </data>
+  <data name="ArenaRewards_Label_Packs" xml:space="preserve">
+    <value>Комплекты карт</value>
+  </data>
+  <data name="ArenaRewards_Label_Cards" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="ArenaRewards_Label_PaymentMethod" xml:space="preserve">
+    <value>Способ оплаты</value>
+  </data>
+  <data name="ArenaRewards_Payment_Label_Gold" xml:space="preserve">
+    <value>Золото</value>
+  </data>
+  <data name="ArenaRewards_Payment_Label_Money" xml:space="preserve">
+    <value>Деньги</value>
+  </data>
+  <data name="ArenaRewards_Label_ShowAuto" xml:space="preserve">
+    <value>Показывать автоматически</value>
+  </data>
+  <data name="ArenaRewards_Label_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ArenaRewards_Card_Label_Golden" xml:space="preserve">
+    <value>Золотая</value>
+  </data>
+  <data name="ArenaRewards_Card_Text_Watermark" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Stats_Constructed_Filters_CheckBox_ActiveOnly" xml:space="preserve">
+    <value>Только текущая колода</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Time" xml:space="preserve">
+    <value>Время:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Start" xml:space="preserve">
+    <value>С:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_End" xml:space="preserve">
+    <value>По:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Seasons" xml:space="preserve">
+    <value>Сезоны:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_SeasonTo" xml:space="preserve">
+    <value>–</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Class" xml:space="preserve">
+    <value>Класс:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Vs" xml:space="preserve">
+    <value>Против:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Mode" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Rank" xml:space="preserve">
+    <value>Ранг:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_RankTo" xml:space="preserve">
+    <value>–</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Format" xml:space="preserve">
+    <value>Формат:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Result" xml:space="preserve">
+    <value>Итог:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Turns" xml:space="preserve">
+    <value>Ходы:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_TurnsTo" xml:space="preserve">
+    <value>–</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Coin" xml:space="preserve">
+    <value>Монета:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Label_Region" xml:space="preserve">
+    <value>Регион:</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Text_OpponentName_Watermark" xml:space="preserve">
+    <value>Имя противника...</value>
+  </data>
+  <data name="Stats_Constructed_Filters_Text_Notes_Watermark" xml:space="preserve">
+    <value>Заметки...</value>
+  </data>
+  <data name="Stats_Constructed_Filters_CheckBox_Archived" xml:space="preserve">
+    <value>Включая архивные игры</value>
+  </data>
+  <data name="Stats_Constructed_Filters_CheckBox_TagFilters" xml:space="preserve">
+    <value>Фильтр по меткам</value>
+  </data>
+  <data name="Stats_Constructed_Filters_CheckBox_TagFilters_Tooltip" xml:space="preserve">
+    <value>Отфильтровать колоды по меткам можно в Фильтре колод (кнопка с двумя стрелками над списком колод).</value>
+  </data>
+  <data name="Stats_Overview_Label_Menu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Arena" xml:space="preserve">
+    <value>Выступления на Арене</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Arena_Summary" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Arena_Runs" xml:space="preserve">
+    <value>Выступления и игры</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Arena_Advanced" xml:space="preserve">
+    <value>Расширенные графики</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Constructed" xml:space="preserve">
+    <value>Режим Игры</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Constructed_Summary" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Constructed_Matches" xml:space="preserve">
+    <value>Партии</value>
+  </data>
+  <data name="Stats_Overview_Tree_Label_Constructed_Charts" xml:space="preserve">
+    <value>Графики</value>
+  </data>
+  <data name="Stats_Overview_Filters_CheckBox_AutoRefresh" xml:space="preserve">
+    <value>Автообновление</value>
+  </data>
+  <data name="Stats_Overview_Filters_Label_Reset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="Stats_Overview_Label_Filters" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="Importing_Constructed_Label_Title" xml:space="preserve">
+    <value>Выбор колоды для импорта:</value>
+  </data>
+  <data name="Importing_Constructed_Button_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Importing_Constructed_Button_AutoImporting" xml:space="preserve">
+    <value>Включить автоимпорт</value>
+  </data>
+  <data name="Importing_Constructed_Label_Deck" xml:space="preserve">
+    <value>Колода</value>
+  </data>
+  <data name="Importing_Constructed_Label_SaveTo" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Importing_Constructed_Text_StartHearthstonePlay" xml:space="preserve">
+    <value>Запустите Hearthstone и перейдите в режим «Игра».</value>
+  </data>
+  <data name="Importing_Constructed_Text_EnterPlay" xml:space="preserve">
+    <value>Войдите в режим «Игра».</value>
+  </data>
+  <data name="Importing_Constructed_Text_StartHearthstoneBrawl" xml:space="preserve">
+    <value>Запустите Hearthstone и перейдите в режим «Потасовка».</value>
+  </data>
+  <data name="Importing_Constructed_Text_EnterBrawl" xml:space="preserve">
+    <value>Войдите в режим «Потасовка».</value>
+  </data>
+  <data name="Importing_Constructed_Text_NoDecksFound" xml:space="preserve">
+    <value>Нет новых колод.</value>
+  </data>
+  <data name="Importing_Constructed_Button_StartHearthstone" xml:space="preserve">
+    <value>Запуск Battle.net / Hearthstone</value>
+  </data>
+  <data name="Importing_Constructed_Button_Waiting" xml:space="preserve">
+    <value>Ожидаем Hearthstone…</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Naxx" xml:space="preserve">
+    <value>Колода содержит карты дополнения Наксармас.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Gvg" xml:space="preserve">
+    <value>Колода содержит карты дополнения Гоблины и гномы.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Brm" xml:space="preserve">
+    <value>Колода содержит карты дополнения Черная Гора.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Tgt" xml:space="preserve">
+    <value>Колода содержит карты дополнения Большой турнир.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Loe" xml:space="preserve">
+    <value>Колода содержит карты дополнения Лига исследователей.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Wotog" xml:space="preserve">
+    <value>Колода содержит карты дополнения Пробуждение древних богов.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Kara" xml:space="preserve">
+    <value>Колода содержит карты дополнения Вечеринка в Каражане.</value>
+  </data>
+  <data name="ManaCurve_Tooltip_Label_Weapons" xml:space="preserve">
+    <value>Оружие</value>
+  </data>
+  <data name="ManaCurve_Tooltip_Label_Spells" xml:space="preserve">
+    <value>Заклинания</value>
+  </data>
+  <data name="ManaCurve_Tooltip_Label_Minions" xml:space="preserve">
+    <value>Существа</value>
+  </data>
+  <data name="ManaCurve_Tooltip_Label_Heroes" xml:space="preserve">
+    <value>Герои</value>
+  </data>
+  <data name="ManaCurve_Button_Mechanics" xml:space="preserve">
+    <value>Механики</value>
+  </data>
+  <data name="ManaCurve_Button_Hide" xml:space="preserve">
+    <value>Скрыть</value>
+  </data>
+  <data name="Enum_StatType_Mana" xml:space="preserve">
+    <value>Мана</value>
+  </data>
+  <data name="Enum_StatType_Health" xml:space="preserve">
+    <value>Здоровье</value>
+  </data>
+  <data name="Enum_StatType_Attack" xml:space="preserve">
+    <value>Урон</value>
+  </data>
+  <data name="Enum_StatType_Overload" xml:space="preserve">
+    <value>Перегрузка</value>
+  </data>
+  <data name="Enum_ArenaImportingBehaviour_AutoImportSave" xml:space="preserve">
+    <value>Авто импорт и сохранение</value>
+  </data>
+  <data name="Enum_ArenaImportingBehaviour_AutoAsk" xml:space="preserve">
+    <value>Запрос подтверждения</value>
+  </data>
+  <data name="Enum_ArenaImportingBehaviour_Manual" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_None" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_Classic" xml:space="preserve">
+    <value>Классический</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_GoblinsVsGnomes" xml:space="preserve">
+    <value>Гоблины и гномы</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_TheGrandTournament" xml:space="preserve">
+    <value>Большой турнир</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_WhispersOfTheOldGods" xml:space="preserve">
+    <value>Пробуждение древних богов</value>
+  </data>
+  <data name="Enum_ClassColorScheme_Classic" xml:space="preserve">
+    <value>Классическая</value>
+  </data>
+  <data name="Enum_ClassColorScheme_Alternative" xml:space="preserve">
+    <value>Альтернативная</value>
+  </data>
+  <data name="Enum_DeckDateType_LastEdited" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="Enum_DeckDateType_LastPlayed" xml:space="preserve">
+    <value>Последнее использование</value>
+  </data>
+  <data name="Enum_DeckDateType_None" xml:space="preserve">
+    <value>Не отображать</value>
+  </data>
+  <data name="Enum_DeckLayout_Layout1" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="Enum_DeckLayout_Layout2" xml:space="preserve">
+    <value>Альтернативное</value>
+  </data>
+  <data name="Enum_DeckLayout_Legacy" xml:space="preserve">
+    <value>Устаревшее</value>
+  </data>
+  <data name="Enum_DisplayedStats_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_DisplayedStats_Selected" xml:space="preserve">
+    <value>Выбранная</value>
+  </data>
+  <data name="Enum_DisplayedStats_Latest" xml:space="preserve">
+    <value>Последняя</value>
+  </data>
+  <data name="Enum_DisplayedStats_SelectedMajor" xml:space="preserve">
+    <value>Выбранная главная</value>
+  </data>
+  <data name="Enum_DisplayedStats_LatestMajor" xml:space="preserve">
+    <value>Последняя главная</value>
+  </data>
+  <data name="Enum_DisplayMode_Always" xml:space="preserve">
+    <value>Всегда</value>
+  </data>
+  <data name="Enum_DisplayMode_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="Enum_DisplayMode_Never" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="Enum_Format_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_Format_Standard" xml:space="preserve">
+    <value>Стандарт</value>
+  </data>
+  <data name="Enum_Format_Wild" xml:space="preserve">
+    <value>Вольный</value>
+  </data>
+  <data name="Enum_GameMode_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_GameMode_Ranked" xml:space="preserve">
+    <value>Рейтинг</value>
+  </data>
+  <data name="Enum_GameMode_Casual" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="Enum_GameMode_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="Enum_GameMode_Brawl" xml:space="preserve">
+    <value>Потасовка</value>
+  </data>
+  <data name="Enum_GameMode_Friendly" xml:space="preserve">
+    <value>Дружеский</value>
+  </data>
+  <data name="Enum_GameMode_Practice" xml:space="preserve">
+    <value>Тренировка</value>
+  </data>
+  <data name="Enum_GameMode_Spectator" xml:space="preserve">
+    <value>Режим зрителя</value>
+  </data>
+  <data name="Enum_GameMode_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Enum_GameResult_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_GameResult_Win" xml:space="preserve">
+    <value>Победа</value>
+  </data>
+  <data name="Enum_GameResult_Loss" xml:space="preserve">
+    <value>Поражение</value>
+  </data>
+  <data name="Enum_GameResult_Draw" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="Enum_GameResult_None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Enum_HeroClass_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_HeroClass_Druid" xml:space="preserve">
+    <value>Друид</value>
+  </data>
+  <data name="Enum_HeroClass_Hunter" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="Enum_HeroClass_Mage" xml:space="preserve">
+    <value>Маг</value>
+  </data>
+  <data name="Enum_HeroClass_Paladin" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="Enum_HeroClass_Priest" xml:space="preserve">
+    <value>Жрец</value>
+  </data>
+  <data name="Enum_HeroClass_Rogue" xml:space="preserve">
+    <value>Разбойник</value>
+  </data>
+  <data name="Enum_HeroClass_Shaman" xml:space="preserve">
+    <value>Шаман</value>
+  </data>
+  <data name="Enum_HeroClass_Warlock" xml:space="preserve">
+    <value>Чернокнижник</value>
+  </data>
+  <data name="Enum_HeroClass_Warrior" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="Enum_HeroClass_Archived" xml:space="preserve">
+    <value>Архивный</value>
+  </data>
+  <data name="Enum_IconStyle_Round" xml:space="preserve">
+    <value>Круглые</value>
+  </data>
+  <data name="Enum_IconStyle_Square" xml:space="preserve">
+    <value>Квадратные</value>
+  </data>
+  <data name="Enum_IconStyle_HearthStats" xml:space="preserve">
+    <value>HearthStats</value>
+  </data>
+  <data name="Enum_MetroTheme_BaseLight" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="Enum_MetroTheme_BaseDark" xml:space="preserve">
+    <value>Темная</value>
+  </data>
+  <data name="Enum_Region_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_Region_Unknown" xml:space="preserve">
+    <value>Неизвестный</value>
+  </data>
+  <data name="Enum_Region_US" xml:space="preserve">
+    <value>Америка</value>
+  </data>
+  <data name="Enum_Region_EU" xml:space="preserve">
+    <value>Европа</value>
+  </data>
+  <data name="Enum_Region_Asia" xml:space="preserve">
+    <value>Азия</value>
+  </data>
+  <data name="Enum_Region_China" xml:space="preserve">
+    <value>Китай</value>
+  </data>
+  <data name="Enum_TagFilterOperation_And" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Enum_TagFilterOperation_Or" xml:space="preserve">
+    <value>Или</value>
+  </data>
+  <data name="Enum_TimeFrame_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Enum_TimeFrame_Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="Enum_TimeFrame_Last24Hours" xml:space="preserve">
+    <value>За сутки</value>
+  </data>
+  <data name="Enum_TimeFrame_ThisWeek" xml:space="preserve">
+    <value>Эта неделя</value>
+  </data>
+  <data name="Enum_TimeFrame_PreviousWeek" xml:space="preserve">
+    <value>Прошлая неделя</value>
+  </data>
+  <data name="Enum_TimeFrame_Last7Days" xml:space="preserve">
+    <value>Последние 7 дней</value>
+  </data>
+  <data name="Enum_TimeFrame_ThisMonth" xml:space="preserve">
+    <value>Этот месяц</value>
+  </data>
+  <data name="Enum_TimeFrame_PreviousMonth" xml:space="preserve">
+    <value>Прошлый месяц</value>
+  </data>
+  <data name="Enum_TimeFrame_ThisYear" xml:space="preserve">
+    <value>Этот год</value>
+  </data>
+  <data name="Enum_TimeFrame_PreviousYear" xml:space="preserve">
+    <value>Прошлый год</value>
+  </data>
+  <data name="Enum_TimeFrame_AllTime" xml:space="preserve">
+    <value>Все время</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_ThisWeek" xml:space="preserve">
+    <value>Эта неделя</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_CurrentSeason" xml:space="preserve">
+    <value>Этот сезон</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_LastSeason" xml:space="preserve">
+    <value>Прошлый сезон</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_CustomSeason" xml:space="preserve">
+    <value>Сезоны</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_AllTime" xml:space="preserve">
+    <value>Все время</value>
+  </data>
+  <data name="Enum_DisplayedTimeFrame_Custom" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="Enum_YesNo_Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Enum_YesNo_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Enum_YesNoAll_All" xml:space="preserve">
+    <value>Не важно</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_ClassColors" xml:space="preserve">
+    <value>Расцветка классов:</value>
+  </data>
+  <data name="DeckNotes_Button_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="DeckNotes_Button_Save_Tooltip" xml:space="preserve">
+    <value>Сохранится автоматически при закрытии</value>
+  </data>
+  <data name="DeckPanel_Button_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Help_Label_Faq" xml:space="preserve">
+    <value>ЧАВО</value>
+  </data>
+  <data name="Help_Faq_Hyperlink" xml:space="preserve">
+    <value>Открыть ЧАВО</value>
+  </data>
+  <data name="Help_Label_Overlay" xml:space="preserve">
+    <value>Интерфейс</value>
+  </data>
+  <data name="Help_Overlay_Label_CardMarks" xml:space="preserve">
+    <value>Метки на картах</value>
+  </data>
+  <data name="Help_Overlay_CardMarks_Label_Coin" xml:space="preserve">
+    <value>Монетка</value>
+  </data>
+  <data name="Help_Overlay_CardMarks_Label_Mulligan" xml:space="preserve">
+    <value>Заменена</value>
+  </data>
+  <data name="Help_Overlay_CardMarks_Label_Returned" xml:space="preserve">
+    <value>Возвращена</value>
+  </data>
+  <data name="Help_Overlay_CardMarks_Label_Created" xml:space="preserve">
+    <value>Создана</value>
+  </data>
+  <data name="Help_Overlay_Label_Percentages" xml:space="preserve">
+    <value>Расчет шансов</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Label_General" xml:space="preserve">
+    <value>Общее:</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Text_General" xml:space="preserve">
+    <value>Число копий карты, оставшихся в колоде.</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Label_Draw" xml:space="preserve">
+    <value>Шанс вытянуть:</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Text_Draw" xml:space="preserve">
+    <value>Вероятность взять конкретную карту, в зависимости от числа оставшихся в колоде копий.</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Label_Holding" xml:space="preserve">
+    <value>Шанс, что карта на руке:</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Text1_Holding" xml:space="preserve">
+    <value>Вероятность, что у противника будет в руке нужная карта на начало следующего хода, в зависимости от числа копий в колоде.</value>
+  </data>
+  <data name="Help_Overlay_Percentages_Text2_Holding" xml:space="preserve">
+    <value>Учитывается взятие карты только в начале хода.</value>
+  </data>
+  <data name="Help_Overlay_Label_Customization" xml:space="preserve">
+    <value>Настройка внешнего вида</value>
+  </data>
+  <data name="Help_Overlay_Customization_Text_Intro" xml:space="preserve">
+    <value>Почти все, что есть в интерфейсе можно отключить, переместить или увеличить (уменьшить).</value>
+  </data>
+  <data name="Help_Overlay_Customization_Label_OnOff" xml:space="preserve">
+    <value>Вкл./откл.:</value>
+  </data>
+  <data name="Help_Overlay_Customization_OnOff_Text" xml:space="preserve">
+    <value>Соответствующие параметры можно найти в разделе</value>
+  </data>
+  <data name="Help_Overlay_Customization_OnOff_OptionPath" xml:space="preserve">
+    <value>Настройки → Интерфейс → Общие / Игрок / Противник</value>
+  </data>
+  <data name="Help_Overlay_Customization_Label_Unlock" xml:space="preserve">
+    <value>Перемещение/размер:</value>
+  </data>
+  <data name="Help_Overlay_Customization_Unlock_Text1" xml:space="preserve">
+    <value>Интерфейс можно разблокировать в разделе</value>
+  </data>
+  <data name="Help_Overlay_Customization_Unlock_OptionPath" xml:space="preserve">
+    <value>Настройки → Интерфейс → Общие</value>
+  </data>
+  <data name="Help_Overlay_Customization_Unlock_Text2" xml:space="preserve">
+    <value>(кнопка в нижней части).</value>
+  </data>
+  <data name="Help_Overlay_Customization_Hyperlink" xml:space="preserve">
+    <value>Дополнительную информацию можно найти здесь</value>
+  </data>
+  <data name="Help_Label_BugsFeatures" xml:space="preserve">
+    <value>Сообщайте об ошибках / предлагайте новые возможности</value>
+  </data>
+  <data name="Help_BugsFeatures_Option1_Text1" xml:space="preserve">
+    <value>1) Проверьте список</value>
+  </data>
+  <data name="Help_BugsFeatures_Option1_Hyperlink_Github1" xml:space="preserve">
+    <value>запросов на GitHub</value>
+  </data>
+  <data name="Help_BugsFeatures_Option1_Text2" xml:space="preserve">
+    <value>. Если вы не смогли найти похожую проблему, не стесняйтесь, открывайте новую. Можете даже сами исправить и выслать патч на рассмотрение. Если вы не знаете, что нужно указывать при описании проблемы, посмотрите</value>
+  </data>
+  <data name="Help_BugsFeatures_Option1_Hyperlink_Github2" xml:space="preserve">
+    <value>здесь.</value>
+  </data>
+  <data name="Help_BugsFeatures_Text_Or" xml:space="preserve">
+    <value>либо</value>
+  </data>
+  <data name="Help_BugsFeatures_Option2_Text_Email" xml:space="preserve">
+    <value>2) Напишите нам на support@hsdecktracker.net (только на английском)</value>
+  </data>
+  <data name="Help_Label_Github" xml:space="preserve">
+    <value>Проект на GitHub</value>
+  </data>
+  <data name="Help_Github_Text1" xml:space="preserve">
+    <value>Проект доступен по</value>
+  </data>
+  <data name="Help_Github_Hyperlink1" xml:space="preserve">
+    <value>этой ссылке.</value>
+  </data>
+  <data name="Help_Github_Text2" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="Help_Github_Hyperlink2" xml:space="preserve">
+    <value>readme</value>
+  </data>
+  <data name="Help_Github_Text3" xml:space="preserve">
+    <value>содержит краткий обзор всех возможностей.</value>
+  </data>
+  <data name="Help_Label_Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="Help_Button_Updatenotes" xml:space="preserve">
+    <value>Описание обновлений</value>
+  </data>
+  <data name="DeckPicker_Label_ActiveDeck" xml:space="preserve">
+    <value>Текущая колода:</value>
+  </data>
+  <data name="DeckPicker_ActiveDeck_Label_None" xml:space="preserve">
+    <value>Не выбрана</value>
+  </data>
+  <data name="DeckPicker_ActiveDeck_Label_None_Tooltip" xml:space="preserve">
+    <value>нажмите «Выбрать» для задания текущей колоды</value>
+  </data>
+  <data name="DeckPicker_Button_Auto" xml:space="preserve">
+    <value>Авто</value>
+  </data>
+  <data name="DeckPicker_Button_NoDeckMode" xml:space="preserve">
+    <value>Без колоды</value>
+  </data>
+  <data name="DeckPicker_Deck_Label_Use" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="DeckPicker_Deck_Label_Active" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="DeckPicker_Deck_LastEdited_Tooltip" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="DeckPicker_Deck_LastPlayed_Tooltip" xml:space="preserve">
+    <value>Последнее использование</value>
+  </data>
+  <data name="DeckPicker_Deck_Archived_Tooltip" xml:space="preserve">
+    <value>В архиве</value>
+  </data>
+  <data name="DeckPicker_Deck_Standard_Tooltip" xml:space="preserve">
+    <value>Колода для стандарта</value>
+  </data>
+  <data name="Deck_StatsString_NoStats" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="DeckPicker_Deck_Legacy_NoStats_No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="DeckPicker_Deck_Legacy_NoStats_Stats" xml:space="preserve">
+    <value>данных</value>
+  </data>
+  <data name="Enum_DeckType_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Enum_DeckType_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="Enum_DeckType_Standard" xml:space="preserve">
+    <value>Стандарт</value>
+  </data>
+  <data name="Enum_DeckType_Wild" xml:space="preserve">
+    <value>Вольный</value>
+  </data>
+  <data name="SplashScreen_Button_Skip" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="SplashScreen_Text_Loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="SplashScreen_Text_Updating" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="SplashScreen_Text_Installing" xml:space="preserve">
+    <value>Установка...</value>
+  </data>
+  <data name="TimerWindow_Title" xml:space="preserve">
+    <value>Таймер</value>
+  </data>
+  <data name="StatsWindow_Title" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="StatsWindow_Flyout_Label_OpponentDeck" xml:space="preserve">
+    <value>Колода противника</value>
+  </data>
+  <data name="StatsWindow_Button_MoveToMainWindow" xml:space="preserve">
+    <value>Вернуть в основное окно</value>
+  </data>
+  <data name="PlayerWindow_Title" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="Overlay_DeckList_Label_Fatigue" xml:space="preserve">
+    <value>Ожидаемый урон от усталости:</value>
+  </data>
+  <data name="OpponentWindow_Title" xml:space="preserve">
+    <value>Противник</value>
+  </data>
+  <data name="Overlay_Label_Warning" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="Overlay_Label_CardsNotFound" xml:space="preserve">
+    <value>В текущей колоде нет этих карт:</value>
+  </data>
+  <data name="Overlay_Label_Restart" xml:space="preserve">
+    <value>Необходимо перезапустить Hearthstone!</value>
+  </data>
+  <data name="NoteWindow_Title" xml:space="preserve">
+    <value>Заметка для этой игры</value>
+  </data>
+  <data name="NoteWindow_Button_Set" xml:space="preserve">
+    <value>Записать</value>
+  </data>
+  <data name="NoteWindow_CheckBox_Save" xml:space="preserve">
+    <value>Enter для сохр.</value>
+  </data>
+  <data name="NoteWindow_Button_ShowOppDeck" xml:space="preserve">
+    <value>Колода противника</value>
+  </data>
+  <data name="NoteWindow_Button_HideOppDeck" xml:space="preserve">
+    <value>Скрыть колоду</value>
+  </data>
+  <data name="MoveGameDialog_Title" xml:space="preserve">
+    <value>Выбор колоды</value>
+  </data>
+  <data name="MoveGameDialog_Button_Move" xml:space="preserve">
+    <value>Переместить в выбранное</value>
+  </data>
+  <data name="MoveGameDialog_Label_Version" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="AddGameDialog_Label_Result" xml:space="preserve">
+    <value>Итог:</value>
+  </data>
+  <data name="AddGameDialog_Label_Vs" xml:space="preserve">
+    <value>Против:</value>
+  </data>
+  <data name="AddGameDialog_Label_Mode" xml:space="preserve">
+    <value>Режим:</value>
+  </data>
+  <data name="AddGameDialog_Label_Format" xml:space="preserve">
+    <value>Формат:</value>
+  </data>
+  <data name="AddGameDialog_Label_Region" xml:space="preserve">
+    <value>Регион:</value>
+  </data>
+  <data name="AddGameDialog_Label_Rank" xml:space="preserve">
+    <value>Ранг:</value>
+  </data>
+  <data name="AddGameDialog_Label_LegendRank" xml:space="preserve">
+    <value>Рейтинг в легенде:</value>
+  </data>
+  <data name="AddGameDialog_Label_Coin" xml:space="preserve">
+    <value>Монетка:</value>
+  </data>
+  <data name="AddGameDialog_Label_Conceded" xml:space="preserve">
+    <value>Покинуто:</value>
+  </data>
+  <data name="AddGameDialog_Label_Turns" xml:space="preserve">
+    <value>Ходы:</value>
+  </data>
+  <data name="AddGameDialog_Label_Duration" xml:space="preserve">
+    <value>Прод-сть (мин.):</value>
+  </data>
+  <data name="AddGameDialog_Label_Note" xml:space="preserve">
+    <value>Заметка:</value>
+  </data>
+  <data name="AddGameDialog_Label_Opponent" xml:space="preserve">
+    <value>Противник:</value>
+  </data>
+  <data name="AddGameDialog_Label_Player" xml:space="preserve">
+    <value>Игрок:</value>
+  </data>
+  <data name="AddGameDialog_Button_AddGame" xml:space="preserve">
+    <value>Добавить игру</value>
+  </data>
+  <data name="AddGameDialog_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="AddGameDialog_Title_AddNew" xml:space="preserve">
+    <value>Добавить новую игру</value>
+  </data>
+  <data name="AddGameDialog_Title_Edit" xml:space="preserve">
+    <value>Изменить игру</value>
+  </data>
+  <data name="AddGameDialog_Button_SaveGame" xml:space="preserve">
+    <value>Сохр.</value>
+  </data>
+  <data name="ArenaRewardsDialog_Title" xml:space="preserve">
+    <value>Награды с Арены</value>
+  </data>
+  <data name="CrashDialog_Title" xml:space="preserve">
+    <value>Ошибка падения</value>
+  </data>
+  <data name="CrashDialog_Label_Crashed" xml:space="preserve">
+    <value>Сбой Hearthstone Deck Tracker :(</value>
+  </data>
+  <data name="CrashDialog_Label_Error" xml:space="preserve">
+    <value>Ошибка:</value>
+  </data>
+  <data name="CrashDialog_Button_StackTrace" xml:space="preserve">
+    <value>Показать отладочную информацию</value>
+  </data>
+  <data name="CrashDialog_Text" xml:space="preserve">
+    <value>Пожалуйста, опишите свои действия на момент возникновения ошибки, чтобы мы могли понять, что ее вызвало. Так же приложите любую другую информацию, которая на ваш взгляд может быть полезной.</value>
+  </data>
+  <data name="CrashDialog_Button_Send" xml:space="preserve">
+    <value>Сообщить об ошибке</value>
+  </data>
+  <data name="CrashDialog_Button_Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="CrashDialog_TextBox_Info_Watermark" xml:space="preserve">
+    <value>Дополнительная информация (необязательно)</value>
+  </data>
+  <data name="DeckSelectedDialog_Title" xml:space="preserve">
+    <value>Обнаружена неверная колода</value>
+  </data>
+  <data name="DeckSelectedDialog_Label_SelectDeck" xml:space="preserve">
+    <value>Выберите колоду</value>
+  </data>
+  <data name="DeckTypeDialog_Title" xml:space="preserve">
+    <value>Выберите тип колоды</value>
+  </data>
+  <data name="DeckTypeDialog_Label_Constructed" xml:space="preserve">
+    <value>Режим Игры</value>
+  </data>
+  <data name="DeckTypeDialog_Label_Arena" xml:space="preserve">
+    <value>Арена</value>
+  </data>
+  <data name="DeckTypeDialog_Label_Brawl" xml:space="preserve">
+    <value>Потасовка</value>
+  </data>
+  <data name="DeckTypeDialog_Button_Create" xml:space="preserve">
+    <value>Создать колоду</value>
+  </data>
+  <data name="DeckTypeDialog_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DiscardGameDialog_Title" xml:space="preserve">
+    <value>Отбросить запись игры?</value>
+  </data>
+  <data name="DiscardGameDialog_Label_Description" xml:space="preserve">
+    <value>разыгранные карты не соответствуют текущей колоде</value>
+  </data>
+  <data name="DiscardGameDialog_Button_Discard" xml:space="preserve">
+    <value>Отбросить</value>
+  </data>
+  <data name="DiscardGameDialog_Button_Keep" xml:space="preserve">
+    <value>Оставить</value>
+  </data>
+  <data name="DiscardGameDialog_Button_Move" xml:space="preserve">
+    <value>Переместить в другую колоду</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Title" xml:space="preserve">
+    <value>Удалить запись игры</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Label_Sure" xml:space="preserve">
+    <value>Вы уверены?</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Button_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Multi_Title" xml:space="preserve">
+    <value>Удалить записи игр</value>
+  </data>
+  <data name="MessageDialogs_DeleteGameStats_Multi_Text" xml:space="preserve">
+    <value>Записи выбранных игр будут удалены</value>
+  </data>
+  <data name="MessageDialogs_Restart_Title" xml:space="preserve">
+    <value>Требуется перезапуск</value>
+  </data>
+  <data name="MessageDialogs_Restart_Text" xml:space="preserve">
+    <value>Необходимо перезапустить HDT, чтобы изменения вступили в силу.</value>
+  </data>
+  <data name="MessageDialogs_Restart_Button_Restart" xml:space="preserve">
+    <value>Перезапустить</value>
+  </data>
+  <data name="MessageDialogs_Restart_Button_Later" xml:space="preserve">
+    <value>Не сейчас</value>
+  </data>
+  <data name="MessageDialogs_SavedFile_Title" xml:space="preserve">
+    <value>Сохранено как</value>
+  </data>
+  <data name="MessageDialogs_SavedFile_Button_Ok" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="MessageDialogs_SavedFile_Button_OpenFolder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="MessageDialogs_SaveUpload_Text_Saved" xml:space="preserve">
+    <value>Сохранено как</value>
+  </data>
+  <data name="MessageDialogs_SaveUpload_Text_Uploaded" xml:space="preserve">
+    <value>Загружено на</value>
+  </data>
+  <data name="MessageDialogs_SaveUpload_Button_Ok" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="MessageDialogs_SaveUpload_Button_Browser" xml:space="preserve">
+    <value>Открыть в браузере</value>
+  </data>
+  <data name="MessageDialogs_SaveUpload_Button_Clipboard" xml:space="preserve">
+    <value>Копировать ссылку</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Title" xml:space="preserve">
+    <value>Выбрать действие</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Description" xml:space="preserve">
+    <value>изображение будет отправлено на imgur.com при нажатии «Отправить»</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Button_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Button_SaveUpload" xml:space="preserve">
+    <value>Сохранить и отправить</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Button_Upload" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="MessageDialogs_ScrenshotAction_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Title" xml:space="preserve">
+    <value>Ошибка обновления log.config</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Description1" xml:space="preserve">
+    <value>Для работы HDT необходимо создать новый файл конфигурации log.config</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Button_Instructions" xml:space="preserve">
+    <value>Показать руководство</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Button_Close" xml:space="preserve">
+    <value>закрыть</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Description2" xml:space="preserve">
+    <value>Попробуйте запустить HDT с правами администратора.</value>
+  </data>
+  <data name="MessageDialogs_LogConfig_Description3" xml:space="preserve">
+    <value>Если это не помогло, прочитайте в руководстве, как обновить его вручную.</value>
+  </data>
+  <data name="UpdateNotes_Label_Continue" xml:space="preserve">
+    <value>Продолжить...</value>
+  </data>
+  <data name="SortFilter_Label_Constructed" xml:space="preserve">
+    <value>Сортировка Собранных колод</value>
+  </data>
+  <data name="SortFilter_CheckBox_SortByClass" xml:space="preserve">
+    <value>Сортировать по классу</value>
+  </data>
+  <data name="SortFilter_Label_Arena" xml:space="preserve">
+    <value>Сортировка колод Арены</value>
+  </data>
+  <data name="SortFilter_Label_Filter" xml:space="preserve">
+    <value>Метки</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Top" xml:space="preserve">
+    <value>В начало</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Bottom" xml:space="preserve">
+    <value>В конец</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Delete" xml:space="preserve">
+    <value>Удалить выбранную</value>
+  </data>
+  <data name="SortFilter_Filter_Text_NewTag_Watermark" xml:space="preserve">
+    <value>Новая метка</value>
+  </data>
+  <data name="SortFilter_Filter_Button_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="SortFilter_Filter_Label_FilterOperation" xml:space="preserve">
+    <value>Группировка:</value>
+  </data>
+  <data name="SortFilter_Filter_SwitchLabel_And" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="SortFilter_Filter_SwitchLabel_Or" xml:space="preserve">
+    <value>Или</value>
+  </data>
+  <data name="SortFilter_Filter_CheckBoxIncludeStandard" xml:space="preserve">
+    <value>Колоды Стандарта в Вольном</value>
+  </data>
+  <data name="Enum_DeckPanel_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="Enum_DeckPanel_Cards" xml:space="preserve">
+    <value>Карты</value>
+  </data>
+  <data name="Enum_DeckPanel_CardCounter" xml:space="preserve">
+    <value>Число карт</value>
+  </data>
+  <data name="Enum_DeckPanel_DrawChances" xml:space="preserve">
+    <value>Шанс взятия</value>
+  </data>
+  <data name="Enum_DeckPanel_Fatigue" xml:space="preserve">
+    <value>Счетчик усталости</value>
+  </data>
+  <data name="Enum_DeckPanel_DeckTitle" xml:space="preserve">
+    <value>Имя колоды</value>
+  </data>
+  <data name="Enum_DeckPanel_Wins" xml:space="preserve">
+    <value>Побед</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Label_LanguageNote" xml:space="preserve">
+    <value>Перевод на некоторые языки отсутствует или находится в работе. Если вы хотите помочь, откройте</value>
+  </data>
+  <data name="Options_Tracker_Appearance_Hyperlink_LanguageNote" xml:space="preserve">
+    <value>репозиторий перевода</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_HearthStats" xml:space="preserve">
+    <value>Показать меню HearthStats</value>
+  </data>
+  <data name="ImportingChoiceDialog_Title" xml:space="preserve">
+    <value>Колода обработана!</value>
+  </data>
+  <data name="ImportingChoiceDialog_Label_Description" xml:space="preserve">
+    <value>Выберите действие</value>
+  </data>
+  <data name="ImportingChoiceDialogg_Button_Export" xml:space="preserve">
+    <value>Создать в Hearthstone</value>
+  </data>
+  <data name="ImportingChoiceDialogg_Button_SaveLocal" xml:space="preserve">
+    <value>Только сохранить</value>
+  </data>
+  <data name="ImportingChoiceDialog_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="MainWindow_Import_Dialog_NoDeckFound_Title" xml:space="preserve">
+    <value>Колода не обнаружена</value>
+  </data>
+  <data name="MainWindow_Import_Dialog_NoDeckFound_Text" xml:space="preserve">
+    <value>Буфер не содержит код или поддерживаемый url колоды.</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_PasteBehavior" xml:space="preserve">
+    <value>Режим работы с буфером:</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_Tooltip_PasteBehavior" xml:space="preserve">
+    <value>Поведение при вставке (Ctrl-V) кода или url колоды в HDT</value>
+  </data>
+  <data name="Enum_ImportingChoice_Manual" xml:space="preserve">
+    <value>Ручной</value>
+  </data>
+  <data name="Enum_ImportingChoice_SaveLocal" xml:space="preserve">
+    <value>Только сохранить</value>
+  </data>
+  <data name="Enum_ImportingChoice_ExportToHs" xml:space="preserve">
+    <value>Создать в Hearthstone</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Msg" xml:space="preserve">
+    <value>Колода содержит карты дополнения Злачный город Прибамбасск.</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Msg" xml:space="preserve">
+    <value>Злачный город Прибамбасск:</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_MeanStreetsOfGadgetzan" xml:space="preserve">
+    <value>Злачный город Прибамбасск</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Msg" xml:space="preserve">
+    <value>Злачный город Прибамбасск</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_Jade" xml:space="preserve">
+    <value>Счетчик нефритовых големов:</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_Jade" xml:space="preserve">
+    <value>Счетчик нефритовых големов:</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_RemoveSecrets" xml:space="preserve">
+    <value>Скрывать затененные секреты</value>
+  </data>
+  <data name="ConfigWarning_Header" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="ConfigWarning_Button_ReEnable" xml:space="preserve">
+    <value>Вернуться к</value>
+  </data>
+  <data name="ConfigWarning_Button_Ignore" xml:space="preserve">
+    <value>Хорошо, больше не показывать</value>
+  </data>
+  <data name="Enum_ConfigWarning_AutoDeckDetection" xml:space="preserve">
+    <value>Автоматический выбор колоды отключен.\n\nРекомендуем включить этот параметр для оптимальной работы HDT.</value>
+  </data>
+  <data name="Enum_ConfigWarning_ConstructedAutoImportNew" xml:space="preserve">
+    <value>Синхронизация ваших Собранных колод отключена.\n\nРекомендуем включить этот параметр для оптимальной работы HDT.</value>
+  </data>
+  <data name="Enum_ConfigWarning_ConstructedAutoUpdate" xml:space="preserve">
+    <value>Синхронизация изменений в ваших Собранных колодах отключена.\n\nРекомендуем включить этот параметр для оптимальной работы HDT.</value>
+  </data>
+  <data name="Enum_ConfigWarning_SelectedArenaImportingBehaviour" xml:space="preserve">
+    <value>Автоматическая загрузка колод Арены отключена.\n\nРекомендуем включить этот параметр для оптимальной работы HDT.</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_AutoDeckDetection" xml:space="preserve">
+    <value>Автоматически выбирать колоду (рекомендуется)</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_CardMarkTooltips_Tooltip" xml:space="preserve">
+    <value>Отображает созданную/возвращенную карту, если эта информация доступна.</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_FlavorText_Tooltip" xml:space="preserve">
+    <value>Появится, если ненадолго остановить курсор на карте.</value>
+  </data>
+  <data name="Options_Overlay_General_CheckBox_BatteryStatus_Tooltip" xml:space="preserve">
+    <value>Работает только для мобильных устройств (ноутбук, планшет).</value>
+  </data>
+  <data name="Options_Overlay_Opponent_CheckBox_CenterVertically_Tooltip" xml:space="preserve">
+    <value>Разместить карты и информационные панели в центре выбранной зоны. Зона может быть изменена в разделе «Интерфейс → Общие → Разблокировать».</value>
+  </data>
+  <data name="Options_Overlay_Player_CheckBox_CenterVertically_Tooltip" xml:space="preserve">
+    <value>Разместить карты и информационные панели в центре выбранной зоны. Зона может быть изменена в разделе «Интерфейс → Общие → Разблокировать».</value>
+  </data>
+  <data name="Options_Tracker_Appearance_CheckBox_Metro_Tooltip" xml:space="preserve">
+    <value>Снимите флажок, чтобы отключить большинство анимаций для всплывающих окон</value>
+  </data>
+  <data name="Options_Tracker_Exporting_CheckBox_Clipbard_Tooltip" xml:space="preserve">
+    <value>Попробуйте при проблемах с экспортом названий карт/колод — Может не работать с некоторыми раскладками</value>
+  </data>
+  <data name="Options_Tracker_General_Label_TimerAlert" xml:space="preserve">
+    <value>Оповещение за</value>
+  </data>
+  <data name="Options_Tracker_General_Label_TimerAlert2" xml:space="preserve">
+    <value>секунд.</value>
+  </data>
+  <data name="Options_Tracker_General_Label_TimerAlert_Tooltip" xml:space="preserve">
+    <value>Сигнализировать звуком и мигать, когда осталось X секунд</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_UpperCaseDeckNames_Tooltip" xml:space="preserve">
+    <value>Снимите флажок, чтобы имена колод отображались в нормальном регистре.</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_AdvancedWindowSearch_Tooltip" xml:space="preserve">
+    <value>Отключите, если интерфейс появляется вне окна Hearthstone.</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_ArenaTemplatesFormat_Tooltip" xml:space="preserve">
+    <value>Чтобы узнать больше о форматах дат, загугли «C# формат даты».</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_AltScreenCapture_Tooltip" xml:space="preserve">
+    <value>Попробуйте включить этот параметр, если у вас возникли проблемы с обнаружением ранга.</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Ungoro" xml:space="preserve">
+    <value>Колода содержит карты дополнения Экспедиция в Ун'Горо.</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Ungoro" xml:space="preserve">
+    <value>Экспедиция в Ун'Горо:</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_JourneyToUngoro" xml:space="preserve">
+    <value>Экспедиция в Ун'Горо</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Ungoro" xml:space="preserve">
+    <value>Экспедиция в Ун'Горо</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_HallOfFame" xml:space="preserve">
+    <value>Зал славы</value>
+  </data>
+  <data name="DeckPicker_Deck_Wild_Tooltip" xml:space="preserve">
+    <value>Эта колода только для Вольного формата</value>
+  </data>
+  <data name="DeckPicker_Deck_HsReplayDataIndicator_Tooltip" xml:space="preserve">
+    <value>На HSReplay.net для этой колоды есть глобальная статистика и руководство по сбросу</value>
+  </data>
+  <data name="MainWindow_DeckList_Button_HSReplay" xml:space="preserve">
+    <value>Руководство по сбросу от HSReplay.net</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Screenshot" xml:space="preserve">
+    <value>В картинку</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Screenshot_CardsOnly" xml:space="preserve">
+    <value>Только карты</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Screenshot_WithInfo" xml:space="preserve">
+    <value>С информацией</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_Screenshot_WithInfo_Tooltip" xml:space="preserve">
+    <value>Включает имя колоды, класс, наборы и стоимость в пыли</value>
+  </data>
+  <data name="WebImportingDialog_Title" xml:space="preserve">
+    <value>Импорт из URL</value>
+  </data>
+  <data name="WebImportingDialog_Label_EnterUrl" xml:space="preserve">
+    <value>Укажите ссылку на колоду:</value>
+  </data>
+  <data name="WebImportingDialog_Hyperlink_AllWebsites" xml:space="preserve">
+    <value>Искать все поддерживаемые сайты</value>
+  </data>
+  <data name="WebImportingDialog_Button_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="WebImportingDialog_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="MainWindow_Flyout_DeckScreenshot_Header" xml:space="preserve">
+    <value>В картинку</value>
+  </data>
+  <data name="DeckScreenshot_Label_CardsOnly" xml:space="preserve">
+    <value>Только карты</value>
+  </data>
+  <data name="DeckScreenshot_Label_Title" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="DeckScreenshot_Button_SaveToDisk" xml:space="preserve">
+    <value>Сохранить на диск</value>
+  </data>
+  <data name="DeckScreenshot_Text_UploadError" xml:space="preserve">
+    <value>Ошибка отправки. Повторите попытку позже или отправьте вручную</value>
+  </data>
+  <data name="DeckScreenshot_Preview_Header" xml:space="preserve">
+    <value>Предпросмотр</value>
+  </data>
+  <data name="DeckScreenshot_Button_Clipboard_Copy" xml:space="preserve">
+    <value>Копировать в буфер</value>
+  </data>
+  <data name="DeckScreenshot_Button_Clipboard_Copied" xml:space="preserve">
+    <value>Скопировано!</value>
+  </data>
+  <data name="DeckScreenshot_Button_Imgur_Upload" xml:space="preserve">
+    <value>Отправить на Imgur</value>
+  </data>
+  <data name="DeckScreenshot_Button_Imgur_Uploading" xml:space="preserve">
+    <value>Отправляется...</value>
+  </data>
+  <data name="DeckScreenshot_Button_Imgur_Success" xml:space="preserve">
+    <value>Успешно отправлено</value>
+  </data>
+  <data name="DeckScreenshot_Label_OpenFolder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="DeckPicker_ContextMenu_VersionHistory" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="MainWindow_Flyout_VersionHistory_Header" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="MainWindow_Menu_Deck_VersionHistory" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Header_Deck" xml:space="preserve">
+    <value>Колода</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Header_CardDatabase" xml:space="preserve">
+    <value>Список всех карт</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_TextBox_Search_Watermark" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Label_SearchCardText" xml:space="preserve">
+    <value>Искать в тексте карт</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Header_Filters" xml:space="preserve">
+    <value>Фильры</value>
+  </data>
+  <data name="Enum_DeckEditorWarnings_LessThan30" xml:space="preserve">
+    <value>В колоде меньше 30 карт</value>
+  </data>
+  <data name="Enum_DeckEditorWarnings_MoreThan30" xml:space="preserve">
+    <value>В колоде больше 30 карт</value>
+  </data>
+  <data name="Enum_DeckEditorWarnings_NameAlreadyExists" xml:space="preserve">
+    <value>Имя занято.</value>
+  </data>
+  <data name="Enum_DeckEditorErrors_NameRequired" xml:space="preserve">
+    <value>Необходимо указать имя.</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Label_SaveAs" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="DeckExport_Label_Instructions" xml:space="preserve">
+    <value>Инструкция:</value>
+  </data>
+  <data name="DeckExport_Label_Step1" xml:space="preserve">
+    <value>Нажмите кнопку «Копировать»</value>
+  </data>
+  <data name="DeckExport_Label_Step2" xml:space="preserve">
+    <value>Создайте новую колоду в Hearthstone</value>
+  </data>
+  <data name="DeckExport_Text_CodeInfo" xml:space="preserve">
+    <value>Для импорта в Hearthstone требуется только код. Строки начинающиеся с «#» не учитываются.</value>
+  </data>
+  <data name="DeckExport_Button_CopyAll" xml:space="preserve">
+    <value>Копировать все</value>
+  </data>
+  <data name="DeckExport_Button_CopyCode" xml:space="preserve">
+    <value>Копировать только код</value>
+  </data>
+  <data name="DeckExport_Button_Copied" xml:space="preserve">
+    <value>Скопировано!</value>
+  </data>
+  <data name="MainWindow_Flyout_DeckExport_Header" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="MainWindow_Flyout_DeckEditor_Header" xml:space="preserve">
+    <value>Редактор колоды</value>
+  </data>
+  <data name="MainWindow_Menu_Import_DeckString" xml:space="preserve">
+    <value>Из кода колоды</value>
+  </data>
+  <data name="Options_Tracker_Stats_Label_DecksMyGames" xml:space="preserve">
+    <value>Колода / Мои игры / Интерфейс</value>
+  </data>
+  <data name="GameStats_Age_Day" xml:space="preserve">
+    <value>{0} д. назад</value>
+  </data>
+  <data name="GameStats_Age_Days" xml:space="preserve">
+    <value>{0} дн. назад</value>
+  </data>
+  <data name="GameStats_Age_Hour" xml:space="preserve">
+    <value>{0} ч. назад</value>
+  </data>
+  <data name="GameStats_Age_Hours" xml:space="preserve">
+    <value>{0} ч. назад</value>
+  </data>
+  <data name="GameStats_Age_Minute" xml:space="preserve">
+    <value>{0} мин. назад</value>
+  </data>
+  <data name="GameStats_Age_Minutes" xml:space="preserve">
+    <value>{0} мин. назад</value>
+  </data>
+  <data name="MainWindow_Header_GlobalDeckStatistics" xml:space="preserve">
+    <value>Глобальная статистика — HSReplay.net</value>
+  </data>
+  <data name="MainWindow_Header_MyGames" xml:space="preserve">
+    <value>Мои игры</value>
+  </data>
+  <data name="MainWindow_MyGames_HasActiveFilters" xml:space="preserve">
+    <value>В настройках включены фильтры</value>
+  </data>
+  <data name="DeckCharts_Label_Wins" xml:space="preserve">
+    <value>Победы:</value>
+  </data>
+  <data name="DeckCharts_Label_Losses" xml:space="preserve">
+    <value>Поражения:</value>
+  </data>
+  <data name="DeckCharts_Label_Winrate" xml:space="preserve">
+    <value>Доля побед</value>
+  </data>
+  <data name="DeckCharts_Replays_Label_Vs" xml:space="preserve">
+    <value>против</value>
+  </data>
+  <data name="DeckCharts_Tooltip_Uploaded" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="DeckCharts_Label_NoData" xml:space="preserve">
+    <value>Нет данных.</value>
+  </data>
+  <data name="DeckCharts_Label_PlaySomeGames" xml:space="preserve">
+    <value>Сыграйте несколько партий!</value>
+  </data>
+  <data name="HsReplayDeckInfo_Label_Loading" xml:space="preserve">
+    <value>Загрузка...</value>
+  </data>
+  <data name="HsReplayDeckInfo_Label_Machtups" xml:space="preserve">
+    <value>Эффективность против классов</value>
+  </data>
+  <data name="HsReplayDeckInfo_Button_DeckStatistics" xml:space="preserve">
+    <value>Статистика / Руководство по сбросу</value>
+  </data>
+  <data name="HsReplayDeckInfo_Label_NoData" xml:space="preserve">
+    <value>У нас недостаточно данных по выбранной колоде.</value>
+  </data>
+  <data name="HsReplayDeckInfo_Label_NoSelectedDeck" xml:space="preserve">
+    <value>Для колод с иконкой HSReplay.net здесь будут глобальные данные!</value>
+  </data>
+  <data name="HsReplayDeckInfo_Label_TrendingDecksPre" xml:space="preserve">
+    <value>Ищите что-то новое?</value>
+  </data>
+  <data name="HsReplayDeckInfo_Hyperlink_TrendingDecks" xml:space="preserve">
+    <value>Показать популярные колоды!</value>
+  </data>
+  <data name="Druid" xml:space="preserve">
+    <value>Друид</value>
+  </data>
+  <data name="Hunter" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="Mage" xml:space="preserve">
+    <value>Маг</value>
+  </data>
+  <data name="Paladin" xml:space="preserve">
+    <value>Паладин</value>
+  </data>
+  <data name="Priest" xml:space="preserve">
+    <value>Жрец</value>
+  </data>
+  <data name="Shaman" xml:space="preserve">
+    <value>Шаман</value>
+  </data>
+  <data name="Rogue" xml:space="preserve">
+    <value>Разбойник</value>
+  </data>
+  <data name="Warlock" xml:space="preserve">
+    <value>Чернокнижник</value>
+  </data>
+  <data name="Warrior" xml:space="preserve">
+    <value>Воин</value>
+  </data>
+  <data name="DeckCharts_Tooltip_NoReplayData" xml:space="preserve">
+    <value>Повторы отсутствут</value>
+  </data>
+  <data name="DeckCharts_Label_NoSelectedDeck" xml:space="preserve">
+    <value>Выберите колоду, чтобы увидеть свои последние игры!</value>
+  </data>
+  <data name="Options_Tracker_General_CheckBox_MyGames" xml:space="preserve">
+    <value>Показать панель «Мои игры»</value>
+  </data>
+  <data name="DeckExport_Header_MissingCards" xml:space="preserve">
+    <value>Недостающие карты</value>
+  </data>
+  <data name="DeckExport_MissingCards_Label_TotalCost" xml:space="preserve">
+    <value>Стоимость в пыли:</value>
+  </data>
+  <data name="DeckExport_MissingCards_Label_StartHearthstone" xml:space="preserve">
+    <value>Запустите Hearthstone, чтобы увидеть недостающие карты!</value>
+  </data>
+  <data name="DeckExport_MissingCards_Label_AllOwned" xml:space="preserve">
+    <value>Есть все необходимые карты!</value>
+  </data>
+  <data name="Options_Tracker_Importing_Button_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="DeckExport_Checkbox_IncludeVersion" xml:space="preserve">
+    <value>Указать версию колоды</value>
+  </data>
+  <data name="TrayIcon_MenuItemStartHearthstone" xml:space="preserve">
+    <value>Запуск Battle.net / Hearthstone</value>
+  </data>
+  <data name="TrayIcon_MenuItemUseNoDeck" xml:space="preserve">
+    <value>Без колоды</value>
+  </data>
+  <data name="TrayIcon_MenuItemAutoSelect" xml:space="preserve">
+    <value>Авто-выбор колоды</value>
+  </data>
+  <data name="TrayIcon_MenuItemClassCardsFirst" xml:space="preserve">
+    <value>Классовые карты в начале</value>
+  </data>
+  <data name="TrayIcon_MenuItemShow" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="TrayIcon_MenuItemExit" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Icecrown" xml:space="preserve">
+    <value>Колода содержит карты дополнения Рыцари Ледяного Трона.</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Icecrown" xml:space="preserve">
+    <value>Рыцари Ледяного Трона:</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_KnightsOfTheFrozenThrone" xml:space="preserve">
+    <value>Рыцари Ледяного Трона</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Icecrown" xml:space="preserve">
+    <value>Рыцари Ледяного Трона</value>
+  </data>
+  <data name="SelectLanguageDialog_Title" xml:space="preserve">
+    <value>Выбрать язык</value>
+  </data>
+  <data name="SelectLanguageDialog_Button_Copy" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="SelectLanguageDialog_Button_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ShowMessage_CopyCardNames_Error" xml:space="preserve">
+    <value>Ошибка при копировании названий карт в буфер обмена.</value>
+  </data>
+  <data name="ShowMessage_CopyCardNames_NoCards" xml:space="preserve">
+    <value>В выбранной колоде нет карт.</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Step2_Link" xml:space="preserve">
+    <value>Перейти на HSReplay.net</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Step3_Link" xml:space="preserve">
+    <value>Установить / настроить расширение Twitch</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_CheckBox_Enable" xml:space="preserve">
+    <value>Включить интеграцию с расширением Twitch</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Status_Label_Stream" xml:space="preserve">
+    <value>Трансляция:</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Status_Stream_Success" xml:space="preserve">
+    <value>Прямой эфир</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Status_Stream_Error" xml:space="preserve">
+    <value>Не в сети</value>
+  </data>
+  <data name="Options_Streaming_Header" xml:space="preserve">
+    <value>Трансляция</value>
+  </data>
+  <data name="Options_Streaming_CaptureableOverlay_Header" xml:space="preserve">
+    <value>Интерфейс с хромакеем</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Header" xml:space="preserve">
+    <value>Расширение Twitch</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_SetupGuide_Link" xml:space="preserve">
+    <value>Просмотреть полное руководство по настройке</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Loot" xml:space="preserve">
+    <value>Кобольды и катакомбы</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Loot" xml:space="preserve">
+    <value>Колода содержит карты дополнения Кобольды и катакомбы.</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_KoboldsAndCatacombs" xml:space="preserve">
+    <value>Кобольды и катакомбы</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Loot" xml:space="preserve">
+    <value>Кобольды и катакомбы:</value>
+  </data>
+  <data name="Enum_DeckType_Dungeon" xml:space="preserve">
+    <value>Приключение</value>
+  </data>
+  <data name="Enum_DeckType_Brawl" xml:space="preserve">
+    <value>Потасовка</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_Dungeon" xml:space="preserve">
+    <value>Приключения</value>
+  </data>
+  <data name="Options_Tracker_Importing_Dungeon_CheckBox_Import" xml:space="preserve">
+    <value>Авто-импорт новых колод</value>
+  </data>
+  <data name="Options_Tracker_Importing_Label_DungeonTemplates" xml:space="preserve">
+    <value>Шаблон имени для колод Приключений</value>
+  </data>
+  <data name="Options_Tracker_Importing_Dungeon_CheckBox_IncludePassives" xml:space="preserve">
+    <value>Включая пассивные карты</value>
+  </data>
+  <data name="SortFilter_CheckBox_SortFavoriteFirst" xml:space="preserve">
+    <value>Показать «любимые» колоды в начале (метка Favorite)</value>
+  </data>
+  <data name="Button_Download" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="Button_Notnow" xml:space="preserve">
+    <value>Не сейчас</value>
+  </data>
+  <data name="MainWindow_StatusBarUpdate_NewBETAUpdateAvailable" xml:space="preserve">
+    <value>Новая β-версия уже доступна</value>
+  </data>
+  <data name="MainWindow_ShowMessage_UpdateDialog" xml:space="preserve">
+    <value>Нажмите «Скачать» для обновления.</value>
+  </data>
+  <data name="Banner_CollectionSyncing_Header" xml:space="preserve">
+    <value>Новая функция HSReplay.net: Загрузка коллекции</value>
+  </data>
+  <data name="Banner_CollectionSyncing_Subtitle" xml:space="preserve">
+    <value>Показать лучшие колоды с учетом коллекции!</value>
+  </data>
+  <data name="Options_HSReplay_Account_LoginPrompt1" xml:space="preserve">
+    <value>Войдите, чтобы привязать свои повторы и включить все функции HSReplay.net</value>
+  </data>
+  <data name="Options_HSReplay_Account_LoginPrompt2" xml:space="preserve">
+    <value>Войдите, чтобы включить все функции HSReplay.net</value>
+  </data>
+  <data name="Options_HSReplay_Account_ReplayInfo" xml:space="preserve">
+    <value>Повторы отправлены на</value>
+  </data>
+  <data name="Options_HSReplay_Account_LoggedInAs" xml:space="preserve">
+    <value>Вы вошли как</value>
+  </data>
+  <data name="Options_HSReplay_Account_CollectionUploading" xml:space="preserve">
+    <value>Загрузка коллекции</value>
+  </data>
+  <data name="Options_HSReplay_Account_ReplayUploading" xml:space="preserve">
+    <value>Загрузка повторов</value>
+  </data>
+  <data name="Options_HSReplay_Account_ReplaysClaimed" xml:space="preserve">
+    <value>Повторы привязаны</value>
+  </data>
+  <data name="Options_HSReplay_Account_Premium" xml:space="preserve">
+    <value>Премиум подписка</value>
+  </data>
+  <data name="Options_HSReplay_Account_EnableNow" xml:space="preserve">
+    <value>Включить сейчас</value>
+  </data>
+  <data name="Options_HSReplay_Account_ClaimNow" xml:space="preserve">
+    <value>Связать сейчас</value>
+  </data>
+  <data name="Options_HSReplay_Account_Premium_Subscribed" xml:space="preserve">
+    <value>Спасибо за поддержку!</value>
+  </data>
+  <data name="Options_HSReplay_Account_Premium_NotSubscribed" xml:space="preserve">
+    <value>Узнать больше</value>
+  </data>
+  <data name="Options_HSReplay_Account_AccountSettings" xml:space="preserve">
+    <value>Настройки учетной записи</value>
+  </data>
+  <data name="Options_HSReplay_Account_Logout_Confirmation" xml:space="preserve">
+    <value>Вы действительно хотите выйти?</value>
+  </data>
+  <data name="Options_HSReplay_Account_Logout_Info1" xml:space="preserve">
+    <value>Новые повторы больше не будут привязываться к вашей учетной записи.</value>
+  </data>
+  <data name="Options_HSReplay_Account_Logout_Info2" xml:space="preserve">
+    <value>Вход в систему привяжет все новые повторы.</value>
+  </data>
+  <data name="Options_HSReplay_Account_Logout" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="Options_HSReplay_Collection_HeaderText" xml:space="preserve">
+    <value>Самый простой способ найти лучшие для вас колоды!</value>
+  </data>
+  <data name="Options_HSReplay_Collection_HeaderText_Subtitle" xml:space="preserve">
+    <value>Просто загрузите свою коллекцию на HSReplay.net</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UploadSetting" xml:space="preserve">
+    <value>Синхронизировать мою коллекцию</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UpToDate" xml:space="preserve">
+    <value>Коллекция обновлена!</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UpdatePending" xml:space="preserve">
+    <value>Обновление коллекции в очереди...</value>
+  </data>
+  <data name="Options_HSReplay_Collection_LastUpdated" xml:space="preserve">
+    <value>Последняя синхронизация</value>
+  </data>
+  <data name="Options_HSReplay_Collection_OneMoreStep" xml:space="preserve">
+    <value>Последний шаг для загрузки вашей коллекции:</value>
+  </data>
+  <data name="Options_HSReplay_Collection_OpenCollection" xml:space="preserve">
+    <value>Запустите Hearthstone и откройте коллекцию</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UpdateInfo_Header" xml:space="preserve">
+    <value>Ваша коллекция будет синхронизироваться, при</value>
+  </data>
+  <data name="Options_HSReplay_Account_Header" xml:space="preserve">
+    <value>Учетная запись</value>
+  </data>
+  <data name="Options_HSReplay_Collection_Header" xml:space="preserve">
+    <value>Коллекция</value>
+  </data>
+  <data name="OAuthLogin_Login" xml:space="preserve">
+    <value>Войти на HSReplay.net</value>
+  </data>
+  <data name="OAuthLogin_WaitingForAuthorization" xml:space="preserve">
+    <value>Ожидание авторизации на HSReplay.net…</value>
+  </data>
+  <data name="OAuthLogin_TryAgain" xml:space="preserve">
+    <value>Повторите попытку</value>
+  </data>
+  <data name="OAuthLogin_ContactUs" xml:space="preserve">
+    <value>Проблема со входом? Напиши нам (на английском):</value>
+  </data>
+  <data name="OAuthLogin_Twitter" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="OAuthLogin_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="OAuthLogin_Success" xml:space="preserve">
+    <value>Успешно выполнен вход в</value>
+  </data>
+  <data name="MainWindow_Menu_HSReplay_Login" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="MainWindow_Menu_HSReplay_Meta" xml:space="preserve">
+    <value>Мета</value>
+  </data>
+  <data name="MainWindow_Menu_HSReplay_Decks" xml:space="preserve">
+    <value>Колоды</value>
+  </data>
+  <data name="MainWindow_Menu_HSReplay_MyReplays" xml:space="preserve">
+    <value>Мои повторы</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UpdateInfo_1" xml:space="preserve">
+    <value>• открытии или закрытии коллекции;</value>
+  </data>
+  <data name="Options_HSReplay_Collection_UpdateInfo_2" xml:space="preserve">
+    <value>• выходе из меню открытия комплектов.</value>
+  </data>
+  <data name="Banner_CollectionSyncing_Subtitle_Authenticated" xml:space="preserve">
+    <value>Просто запустите Hearthstone и откройте свою коллекцию.</value>
+  </data>
+  <data name="StartHearthstoneButton_Text" xml:space="preserve">
+    <value>Запуск Hearthstone</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Intro_Header" xml:space="preserve">
+    <value>Подключите HDT к Twitch!</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Intro_Subtitle" xml:space="preserve">
+    <value>Расширенный интерфейс и многое другое.</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Label_Login" xml:space="preserve">
+    <value>Войдите, чтобы начать.</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_Label_TwitchAccount" xml:space="preserve">
+    <value>Теперь давайте подключим вашу учетную запись Twitch к HSReplay.net</value>
+  </data>
+  <data name="Options_Streaming_TwitchExt_TwitchAccount" xml:space="preserve">
+    <value>Учетная запись Twitch:</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Gilneas" xml:space="preserve">
+    <value>Колода содержит карты дополнения Ведьмин лес.</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Gilneas" xml:space="preserve">
+    <value>Ведьмин лес:</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_Witchwood" xml:space="preserve">
+    <value>Ведьмин лес</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Gilneas" xml:space="preserve">
+    <value>Ведьмин лес</value>
+  </data>
+  <data name="DeckExport_Header_DeckCode" xml:space="preserve">
+    <value>Код колоды</value>
+  </data>
+  <data name="Options_Tracker_Settings_CheckBox_CloseToTray" xml:space="preserve">
+    <value>Скрыть в трей при закрытии</value>
+  </data>
+  <data name="Enum_HsActionType_None" xml:space="preserve">
+    <value>Ничего не делать</value>
+  </data>
+  <data name="Enum_HsActionType_Flash" xml:space="preserve">
+    <value>Мигать</value>
+  </data>
+  <data name="Enum_HsActionType_Popup" xml:space="preserve">
+    <value>Разворачивать игру</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_TurnStart" xml:space="preserve">
+    <value>В начале хода:</value>
+  </data>
+  <data name="Options_Tracker_Notifications_Label_FriendlyChallenge" xml:space="preserve">
+    <value>При дружеской дуэли:</value>
+  </data>
+  <data name="DeckSetIcons_Tooltip_Boomsday" xml:space="preserve">
+    <value>Колода содержит карты дополнения Проект Бумного дня.</value>
+  </data>
+  <data name="Stats_Arena_Rewards_Label_Packs_Boomsday" xml:space="preserve">
+    <value>Проект Бумного дня:</value>
+  </data>
+  <data name="Enum_ArenaRewardPacks_Boomsday" xml:space="preserve">
+    <value>Проект Бумного дня</value>
+  </data>
+  <data name="MainWindow_DeckBuilder_Filter_Set_Boomsday" xml:space="preserve">
+    <value>Проект Бумного дня</value>
+  </data>
+  <data name="Options_Overlay_Player_Label_PogoHopper" xml:space="preserve">
+    <value>Счетчик Прыг-скокеров:</value>
+  </data>
+  <data name="Options_Overlay_Opponent_Label_PogoHopper" xml:space="preserve">
+    <value>Счетчик Прыг-скокеров:</value>
+  </data>
+</root>
