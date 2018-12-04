@@ -265,7 +265,7 @@
     <value>구성된 덱(_C)</value>
   </data>
   <data name="MainWindow_Menu_Replays" xml:space="preserve">
-    <value>리플레이(_R)</value>
+    <value>다시보기(_R)</value>
   </data>
   <data name="MainWindow_Menu_Replays_Latest" xml:space="preserve">
     <value>최근 리플레이(_L)</value>
