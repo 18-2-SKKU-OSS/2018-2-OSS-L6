@@ -3,7 +3,7 @@ using System.Linq;
 using HearthDb.Enums;
 using Hearthstone_Deck_Tracker.Hearthstone.Entities;
 using static Hearthstone_Deck_Tracker.Hearthstone.CardIds.Secrets;
-
+using Hearthstone_Deck_Tracker.Utility.Logging;
 namespace Hearthstone_Deck_Tracker.Hearthstone.Secrets
 {
 	public abstract class SecretsEventHandler
@@ -74,6 +74,7 @@ namespace Hearthstone_Deck_Tracker.Hearthstone.Secrets
 
 				if(attacker.IsMinion)
 				{
+					Log.Info("attacker.Health: " + attacker.Health);
 					exclude.Add(Mage.Vaporize);
 					if(attacker.Health >= 1)
 						exclude.Add(Hunter.FreezingTrap);
