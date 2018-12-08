@@ -2749,16 +2749,16 @@
     <value>괜찮습니다. 다시 표시하지 마세요.</value>
   </data>
   <data name="Enum_ConfigWarning_AutoDeckDetection" xml:space="preserve">
-    <value>Automatic deck selection is currently disabled.\n\nIt's recommended to enable this setting for HDT to work best.</value>
+    <value>덱 자동 선택이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_ConstructedAutoImportNew" xml:space="preserve">
-    <value>Automatic importing of new Constructed decks is currently disabled.\n\nIt's recommended to enable this setting for HDT to work best.</value>
+    <value>새로 구성된 덱 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_ConstructedAutoUpdate" xml:space="preserve">
-    <value>Automatic importing of changes to Constructed decks is currently disabled.\n\nIt's recommended to enable this setting for HDT to work best.</value>
+    <value>구성된 덱의 변경사항 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_SelectedArenaImportingBehaviour" xml:space="preserve">
-    <value>Automatic importing of Arena decks is currently disabled.\n\nIt's recommended to enable this setting for HDT to work best.</value>
+    <value>아레나 덱 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Options_Tracker_General_CheckBox_AutoDeckDetection" xml:space="preserve">
     <value>자동으로 덱을 선택 (추천)</value>
