@@ -2845,28 +2845,28 @@
     <value>덱 이름, 직업, 확장팩, 가루 비용 포함</value>
   </data>
   <data name="WebImportingDialog_Title" xml:space="preserve">
-    <value>Import from web</value>
+    <value>웹에서 가져오기</value>
   </data>
   <data name="WebImportingDialog_Label_EnterUrl" xml:space="preserve">
-    <value>Enter deck URL:</value>
+    <value>덱 URL로 들어가기:</value>
   </data>
   <data name="WebImportingDialog_Hyperlink_AllWebsites" xml:space="preserve">
-    <value>Find all supported websites</value>
+    <value>지원하는 모든 사이트 찾기</value>
   </data>
   <data name="WebImportingDialog_Button_Import" xml:space="preserve">
-    <value>Import</value>
+    <value>가져오기</value>
   </data>
   <data name="WebImportingDialog_Button_Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>취소</value>
   </data>
   <data name="MainWindow_Flyout_DeckScreenshot_Header" xml:space="preserve">
     <value>스크린샷</value>
   </data>
   <data name="DeckScreenshot_Label_CardsOnly" xml:space="preserve">
-    <value>Cards only</value>
+    <value>카드만 가능</value>
   </data>
   <data name="DeckScreenshot_Label_Title" xml:space="preserve">
-    <value>Title:</value>
+    <value>제목:</value>
   </data>
   <data name="DeckScreenshot_Button_SaveToDisk" xml:space="preserve">
     <value>디스크에 저장</value>
