@@ -274,7 +274,7 @@
     <value>다시보기 (_S)</value>
   </data>
   <data name="MainWindow_Menu_Replays_File" xml:space="preserve">
-    <value>파일로부터 로드(_F)</value>
+    <value>다시보기 파일(_F)</value>
   </data>
   <data name="MainWindow_Menu_Replays_ClaimAccount" xml:space="preserve">
     <value>계정 요청</value>
