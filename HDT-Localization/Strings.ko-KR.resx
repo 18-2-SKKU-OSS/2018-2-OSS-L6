@@ -2848,10 +2848,10 @@
     <value>웹에서 가져오기</value>
   </data>
   <data name="WebImportingDialog_Label_EnterUrl" xml:space="preserve">
-    <value>덱 URL로 들어가기:</value>
+    <value>덱 URL 입력:</value>
   </data>
   <data name="WebImportingDialog_Hyperlink_AllWebsites" xml:space="preserve">
-    <value>지원하는 모든 사이트 찾기</value>
+    <value>모든 지원되는 웹사이트 찾기</value>
   </data>
   <data name="WebImportingDialog_Button_Import" xml:space="preserve">
     <value>가져오기</value>
