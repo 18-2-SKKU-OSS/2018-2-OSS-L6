@@ -271,7 +271,7 @@
     <value>최근 다시보기(_L)</value>
   </data>
   <data name="MainWindow_Menu_Replays_Stats" xml:space="preserve">
-    <value>통계에서 선택(_S)</value>
+    <value>다시보기 (_S)</value>
   </data>
   <data name="MainWindow_Menu_Replays_File" xml:space="preserve">
     <value>파일로부터 로드(_F)</value>
