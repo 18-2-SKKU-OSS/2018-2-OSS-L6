@@ -107,5 +107,12 @@
                   HorizontalAlignment="Left" Margin="10,5,0,0"
                   VerticalAlignment="Top" Checked="CheckBoxAutoArchiveArenaDecks_Checked"
                   Unchecked="CheckBoxAutoArchiveArenaDecks_Unchecked"/>
+        <Button Name="BtnRestart" Content="Restart Program" Width="120"
+                Click="BtnRestart_Click"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="10,5,0,0"
+                />
+        
     </StackPanel>
 </UserControl>
