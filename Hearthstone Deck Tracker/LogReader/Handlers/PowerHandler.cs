@@ -348,7 +348,7 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								AddKnownCardId(gameState, GetTargetCardId(match));
 								break;
 							case Collectible.Mage.ForgottenTorch:
-								AddKnownCardId(gameState, NonCollectible.Mage.ForgottenTorch_RoaringTorchToken);
+								AddKnownCardId(gameState, NonCollectible.Mage.ForgottenTorch_RoaringTorchToken , 1 + count);
 								break;
 							case Collectible.Warlock.CurseOfRafaam:
 								AddKnownCardId(gameState, NonCollectible.Warlock.CurseofRafaam_CursedToken);
