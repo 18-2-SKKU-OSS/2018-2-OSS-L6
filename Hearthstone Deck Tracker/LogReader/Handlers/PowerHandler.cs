@@ -139,7 +139,22 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								gameState.KnownCardIds[blockId.Value].Remove(cardId);
 							}
 						}
-					}
+                        else if (blockId.HasValue)
+                        {
+                            foreach (KeyValuePair<int, IList<string>> knownCardId in gameState.KnownCardIds)
+                            {
+                                if (knownCardId.Value.Contains(gameState.CurrentBlock.CardId))
+                                {
+                                    cardId = gameState.CurrentBlock.CardId;
+                                    if (!string.IsNullOrEmpty(cardId))
+                                    {
+                                        Log.Info($"Found known cardId for entity {id}: {cardId}");
+                                        gameState.KnownCardIds[knownCardId.Key].Remove(cardId);
+                                    }
+                                }
+                            }
+                        }
+                    }
 					game.Entities.Add(id, new Entity(id) {CardId = cardId});
 				}
 				gameState.SetCurrentEntity(id);
@@ -307,12 +322,14 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 					}
 					else //POWER
 					{
-						switch(actionStartingCardId)
+                        var count = game.Entities.Where(x => (x.Value.IsInPlay && x.Value.CardId == "BOT_559")).Count();
+
+                        switch (actionStartingCardId)
 						{
 							case Collectible.Rogue.GangUp:
 							case Collectible.Hunter.DireFrenzy:
 							case Collectible.Rogue.LabRecruiter:
-								AddKnownCardId(gameState, GetTargetCardId(match), 3);
+								AddKnownCardId(gameState, GetTargetCardId(match), 3 * (1 + count));
 								break;
 							case Collectible.Rogue.BeneathTheGrounds:
 								AddKnownCardId(gameState, NonCollectible.Rogue.BeneaththeGrounds_NerubianAmbushToken, 3);
