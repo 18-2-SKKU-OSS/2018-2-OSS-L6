@@ -366,7 +366,7 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								AddKnownCardId(gameState, NonCollectible.Neutral.EliseStarseeker_GoldenMonkeyToken);
 								break;
 							case Collectible.Neutral.Doomcaller:
-								AddKnownCardId(gameState, NonCollectible.Neutral.Cthun);
+								AddKnownCardId(gameState, NonCollectible.Neutral.Cthun, 1 + count);
 								break;
 							case Collectible.Druid.JadeIdol:
 								AddKnownCardId(gameState, Collectible.Druid.JadeIdol, 3);
