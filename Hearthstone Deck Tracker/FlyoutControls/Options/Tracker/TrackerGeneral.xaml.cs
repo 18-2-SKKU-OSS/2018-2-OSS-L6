@@ -310,5 +310,12 @@ namespace Hearthstone_Deck_Tracker.FlyoutControls.Options.Tracker
 			Core.MainWindow.UpdateMyGamesPanelVisibility();
 			Config.Save();
 		}
+
+		private void ButtonRestart_Click(object sender, RoutedEventArgs e)
+		{
+			if(!_initialized)
+				return;
+			//TODO : restart program
+		}
 	}
 }
