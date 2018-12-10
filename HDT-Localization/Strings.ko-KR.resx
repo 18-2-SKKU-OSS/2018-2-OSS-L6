@@ -3376,13 +3376,13 @@
     <value>덱 코드</value>
   </data>
   <data name="Options_Tracker_Settings_CheckBox_CloseToTray" xml:space="preserve">
-    <value>트레이로 최소화</value>
+    <value>트레이로 닫기</value>
   </data>
   <data name="Enum_HsActionType_None" xml:space="preserve">
-    <value>None</value>
+    <value>없음</value>
   </data>
   <data name="Enum_HsActionType_Flash" xml:space="preserve">
-    <value>Flash</value>
+    <value>반짝임</value>
   </data>
   <data name="Enum_HsActionType_Popup" xml:space="preserve">
     <value>팝업</value>
@@ -3391,7 +3391,7 @@
     <value>턴이 시작할 때:</value>
   </data>
   <data name="Options_Tracker_Notifications_Label_FriendlyChallenge" xml:space="preserve">
-    <value>On friendly challenge:</value>
+    <value>친구가 도전을 신청할 떄:</value>
   </data>
   <data name="DeckSetIcons_Tooltip_Boomsday" xml:space="preserve">
     <value>덱이 박사 붐의 폭심만만 프로젝트 확장팩의 카드를 포함하고 있습니다.</value>
