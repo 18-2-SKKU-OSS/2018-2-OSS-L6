@@ -2713,7 +2713,7 @@
     <value>수동</value>
   </data>
   <data name="Enum_ImportingChoice_SaveLocal" xml:space="preserve">
-    <value>저장만</value>
+    <value>저장</value>
   </data>
   <data name="Enum_ImportingChoice_ExportToHs" xml:space="preserve">
     <value>Hearthstone에서 만들기</value>
