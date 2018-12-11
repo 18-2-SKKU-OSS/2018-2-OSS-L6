@@ -1909,10 +1909,10 @@
     <value>제 2안</value>
   </data>
   <data name="Enum_DeckDateType_LastEdited" xml:space="preserve">
-    <value>마지막으로 편집됨</value>
+    <value>최근 편집됨</value>
   </data>
   <data name="Enum_DeckDateType_LastPlayed" xml:space="preserve">
-    <value>마지막으로 플레이됨</value>
+    <value>최근 플레이됨</value>
   </data>
   <data name="Enum_DeckDateType_None" xml:space="preserve">
     <value>None</value>
