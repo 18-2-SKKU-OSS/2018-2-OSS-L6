@@ -2527,16 +2527,16 @@
     <value>취소</value>
   </data>
   <data name="MessageDialogs_DeleteGameStats_Multi_Title" xml:space="preserve">
-    <value>게임 삭제</value>
+    <value>게임 스텟 삭제</value>
   </data>
   <data name="MessageDialogs_DeleteGameStats_Multi_Text" xml:space="preserve">
-    <value>선택된 게임을 삭제합니다</value>
+    <value>선택된 게임 스텟을 삭제합니다</value>
   </data>
   <data name="MessageDialogs_Restart_Title" xml:space="preserve">
     <value>재시작 필요</value>
   </data>
   <data name="MessageDialogs_Restart_Text" xml:space="preserve">
-    <value>변경 사항을 적용하기 위해 HDT를 재시작해야 합니다.</value>
+    <value>변경 내용을 적용하기 위해 HDT를 재시작해야 합니다.</value>
   </data>
   <data name="MessageDialogs_Restart_Button_Restart" xml:space="preserve">
     <value>지금 재시작</value>
