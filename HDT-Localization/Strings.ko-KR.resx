@@ -829,7 +829,7 @@
     <value>내보내기 전 대화상자 보기</value>
   </data>
   <data name="Options_Tracker_Notifications_Label_Alerts" xml:space="preserve">
-    <value>Alerts</value>
+    <value>알림</value>
   </data>
   <data name="Options_Tracker_General_Label_CardLanguage" xml:space="preserve">
     <value>카드 언어</value>
@@ -871,7 +871,7 @@
     <value>투기장이 끝날 때 덱을 보관 처리</value>
   </data>
   <data name="Options_Tracker_General_ComboBox_DeckDateType" xml:space="preserve">
-    <value>Show Date On Decks:</value>
+    <value>덱에 날짜 보이기:</value>
   </data>
   <data name="Options_Tracker_General_Label_Format" xml:space="preserve">
     <value>포맷:</value>
@@ -1066,7 +1066,7 @@
     <value>하스스톤 경로 설정</value>
   </data>
   <data name="Options_Tracker_Settings_Button_AppData" xml:space="preserve">
-    <value>appdata 폴더 열기</value>
+    <value>Appdata 폴더 열기</value>
   </data>
   <data name="Options_Tracker_Settings_Button_DataPath" xml:space="preserve">
     <value>데이터 경로 설정</value>
@@ -1909,10 +1909,10 @@
     <value>제 2안</value>
   </data>
   <data name="Enum_DeckDateType_LastEdited" xml:space="preserve">
-    <value>Last Edited</value>
+    <value>마지막으로 편집됨</value>
   </data>
   <data name="Enum_DeckDateType_LastPlayed" xml:space="preserve">
-    <value>Last Played</value>
+    <value>마지막으로 플레이됨</value>
   </data>
   <data name="Enum_DeckDateType_None" xml:space="preserve">
     <value>None</value>
@@ -3307,10 +3307,10 @@
     <value>HSReplay.net의 승인을 기다리는 중...</value>
   </data>
   <data name="OAuthLogin_TryAgain" xml:space="preserve">
-    <value>Try again</value>
+    <value>다시 시도하세요</value>
   </data>
   <data name="OAuthLogin_ContactUs" xml:space="preserve">
-    <value>Trouble logging in? Contact us:</value>
+    <value>로그인에 문제가 있습니까? 저희에게 연락주세요:</value>
   </data>
   <data name="OAuthLogin_Twitter" xml:space="preserve">
     <value>트위터</value>
@@ -3352,7 +3352,7 @@
     <value>With an interactive overlay, live deck tracking and more.</value>
   </data>
   <data name="Options_Streaming_TwitchExt_Label_Login" xml:space="preserve">
-    <value>Login to get started.</value>
+    <value>시작하려면 로그인하세요.</value>
   </data>
   <data name="Options_Streaming_TwitchExt_Label_TwitchAccount" xml:space="preserve">
     <value>이제 트위치 계정을 HSReplay.net에 연결시킬 수 있습니다.</value>
