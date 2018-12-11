@@ -4,6 +4,14 @@ import requests
 import os
 
 
+def save_card_image(card_image_src):
+	print("Save \"" + card_image_src + "\"")
+	image_name = card_image_src.split("/")[-1]
+	image_data = requests.get(card_image_src, stream=True)
+	with open(image_name, "wb") as img_file:
+		img_file.write(image_data.content)
+
+
 def collect_cards_list(url):
 	driver = webdriver.PhantomJS("../phantomjs")
 	driver.get(url)
@@ -15,7 +23,7 @@ def collect_cards_list(url):
 
 	for card_image in cards_image:
 		card_image_src = card_image.get("data-src")
-		print(card_image_src)
+		save_card_image(card_image_src)
 
 
 print("Card list URL: ", end='')
