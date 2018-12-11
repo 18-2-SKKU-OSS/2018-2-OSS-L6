@@ -5,7 +5,7 @@ import os
 
 
 def collect_cards_list(url):
-	driver = webdriver.PhantomJS("./phantomjs")
+	driver = webdriver.PhantomJS("../phantomjs")
 	driver.get(url)
 	html = driver.page_source
 	source = BeautifulSoup(html, "html.parser")
@@ -18,8 +18,10 @@ def collect_cards_list(url):
 		print(card_image_src)
 
 
-#print("URL: ", end='')
-#url = input()
-#url = url.replace(" ", "")
-url = "https://playhearthstone.com/ko-kr/expansions-adventures/rastakhans-rumble/cards"
+print("Card list URL: ", end='')
+url = input()
+url = url.replace(" ", "")
+if not os.path.exists("./" + "card_image" + "/"):
+	os.mkdir("card_image")
+os.chdir("card_image")
 collect_cards_list(url)
