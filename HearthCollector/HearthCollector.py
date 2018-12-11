@@ -5,7 +5,11 @@ import os
 
 
 def collect_cards_list(url):
-	print(url)
+	driver = webdriver.PhantomJS("./phantomjs")
+	driver.get(url)
+	html = driver.page_source
+	source = BeautifulSoup(html, "html.parser")
+	print(source)
 
 
 print("URL: ", end='')
