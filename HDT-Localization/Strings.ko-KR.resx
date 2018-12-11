@@ -2293,10 +2293,10 @@
     <value>사용 중</value>
   </data>
   <data name="DeckPicker_Deck_LastEdited_Tooltip" xml:space="preserve">
-    <value>Last time edited</value>
+    <value>최근 수정 시간</value>
   </data>
   <data name="DeckPicker_Deck_LastPlayed_Tooltip" xml:space="preserve">
-    <value>Last time played</value>
+    <value>최근 실행 </value>
   </data>
   <data name="DeckPicker_Deck_Archived_Tooltip" xml:space="preserve">
     <value>보관됨</value>
@@ -2749,16 +2749,16 @@
     <value>괜찮습니다. 다시 표시하지 마세요.</value>
   </data>
   <data name="Enum_ConfigWarning_AutoDeckDetection" xml:space="preserve">
-    <value>덱 자동 선택이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
+    <value>덱 자동 선택을 현재 사용할 수 없습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_ConstructedAutoImportNew" xml:space="preserve">
-    <value>새로 구성된 덱 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
+    <value>새로 구성된 덱 자동 가져오기 기능을 현재 사용할 수 없습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_ConstructedAutoUpdate" xml:space="preserve">
-    <value>구성된 덱의 변경사항 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
+    <value>구성된 덱의 변경사항 자동 가져오기 기능을 현재 사용할 수 없습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Enum_ConfigWarning_SelectedArenaImportingBehaviour" xml:space="preserve">
-    <value>아레나 덱 자동 가져오기 기능이 현재 비활성화 되어 있습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
+    <value>아레나 덱 자동 가져오기 기능이 현재 사용할 수 없습니다.\n\nHDT가 잘 작동하게 하려면 이 설정을 활성화하는 것을 추천합니다.</value>
   </data>
   <data name="Options_Tracker_General_CheckBox_AutoDeckDetection" xml:space="preserve">
     <value>자동으로 덱을 선택 (추천)</value>
@@ -3247,7 +3247,7 @@
     <value>Claim now</value>
   </data>
   <data name="Options_HSReplay_Account_Premium_Subscribed" xml:space="preserve">
-    <value>Thank you for supporting us!</value>
+    <value>도움을 주셔서 감사합니다!</value>
   </data>
   <data name="Options_HSReplay_Account_Premium_NotSubscribed" xml:space="preserve">
     <value>더 찾아보기</value>
@@ -3256,7 +3256,7 @@
     <value>계정 설정</value>
   </data>
   <data name="Options_HSReplay_Account_Logout_Confirmation" xml:space="preserve">
-    <value>Are you sure you want to logout?</value>
+    <value>정말로 로그아웃 하시겠습니까?</value>
   </data>
   <data name="Options_HSReplay_Account_Logout_Info1" xml:space="preserve">
     <value>New replays will no longer be attached to your account.</value>
@@ -3301,10 +3301,10 @@
     <value>내 카드</value>
   </data>
   <data name="OAuthLogin_Login" xml:space="preserve">
-    <value>Login to HSReplay.net</value>
+    <value>HSReplay.net에 로그인</value>
   </data>
   <data name="OAuthLogin_WaitingForAuthorization" xml:space="preserve">
-    <value>Waiting for authorization from HSReplay.net...</value>
+    <value>HSReplay.net의 승인을 기다리는 중...</value>
   </data>
   <data name="OAuthLogin_TryAgain" xml:space="preserve">
     <value>Try again</value>
