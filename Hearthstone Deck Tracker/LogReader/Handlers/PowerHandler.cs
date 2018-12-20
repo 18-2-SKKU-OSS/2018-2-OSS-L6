@@ -139,22 +139,18 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								gameState.KnownCardIds[blockId.Value].Remove(cardId);
 							}
 						}
-                        else if (blockId.HasValue)
-                        {
-                            foreach (KeyValuePair<int, IList<string>> knownCardId in gameState.KnownCardIds)
-                            {
-                                if (knownCardId.Value.Contains(gameState.CurrentBlock.CardId))
-                                {
-                                    cardId = gameState.CurrentBlock.CardId;
-                                    if (!string.IsNullOrEmpty(cardId))
-                                    {
-                                        Log.Info($"Found known cardId for entity {id}: {cardId}");
-                                        gameState.KnownCardIds[knownCardId.Key].Remove(cardId);
-                                    }
-                                }
-                            }
-                        }
-                    }
+						else if(blockId.HasValue && !gameState.KnownCardIds.ContainsKey(blockId.Value))
+						{
+							if(gameState.CurrentBlock.CardId == Collectible.Neutral.AugmentedElekk)
+							{
+								if(gameState.CurrentBlock.Parent != null)
+									cardId = gameState.CurrentBlock.Parent.LastAddedCardId;
+
+								if(!string.IsNullOrEmpty(cardId))
+									Log.Info($"Found known cardId for entity {id}: {cardId}");
+							}
+						}
+					}
 					game.Entities.Add(id, new Entity(id) {CardId = cardId});
 				}
 				gameState.SetCurrentEntity(id);
@@ -322,14 +318,12 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 					}
 					else //POWER
 					{
-                        var count = game.Entities.Where(x => (x.Value.IsInPlay && x.Value.CardId == "BOT_559")).Count();
-
                         switch (actionStartingCardId)
 						{
 							case Collectible.Rogue.GangUp:
 							case Collectible.Hunter.DireFrenzy:
 							case Collectible.Rogue.LabRecruiter:
-								AddKnownCardId(gameState, GetTargetCardId(match), 3 * (1 + count));
+								AddKnownCardId(gameState, GetTargetCardId(match), 3);
 								break;
 							case Collectible.Rogue.BeneathTheGrounds:
 								AddKnownCardId(gameState, NonCollectible.Rogue.BeneaththeGrounds_NerubianAmbushToken, 3);
@@ -348,7 +342,7 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								AddKnownCardId(gameState, GetTargetCardId(match));
 								break;
 							case Collectible.Mage.ForgottenTorch:
-								AddKnownCardId(gameState, NonCollectible.Mage.ForgottenTorch_RoaringTorchToken , 1 + count);
+								AddKnownCardId(gameState, NonCollectible.Mage.ForgottenTorch_RoaringTorchToken , 1);
 								break;
 							case Collectible.Warlock.CurseOfRafaam:
 								AddKnownCardId(gameState, NonCollectible.Warlock.CurseofRafaam_CursedToken);
@@ -366,7 +360,7 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								AddKnownCardId(gameState, NonCollectible.Neutral.EliseStarseeker_GoldenMonkeyToken);
 								break;
 							case Collectible.Neutral.Doomcaller:
-								AddKnownCardId(gameState, NonCollectible.Neutral.Cthun, 1 + count);
+								AddKnownCardId(gameState, NonCollectible.Neutral.Cthun, 1);
 								break;
 							case Collectible.Druid.JadeIdol:
 								AddKnownCardId(gameState, Collectible.Druid.JadeIdol, 3);
@@ -381,13 +375,13 @@ namespace Hearthstone_Deck_Tracker.LogReader.Handlers
 								AddKnownCardId(gameState, Collectible.Mage.MirrorImage);
 								break;
 							case Collectible.Mage.DeckOfWonders:
-								AddKnownCardId(gameState, NonCollectible.Mage.DeckofWonders_ScrollOfWonderToken, 5 * (1 + count));
+								AddKnownCardId(gameState, NonCollectible.Mage.DeckofWonders_ScrollOfWonderToken, 5);
 								break;
 							case Collectible.Neutral.TheDarkness:
 								AddKnownCardId(gameState, NonCollectible.Neutral.TheDarkness_DarknessCandleToken, 3);
 								break;
 							case Collectible.Rogue.FaldoreiStrider:
-								AddKnownCardId(gameState, NonCollectible.Rogue.FaldoreiStrider_SpiderAmbushEnchantment, 3 * (1 + count));
+								AddKnownCardId(gameState, NonCollectible.Rogue.FaldoreiStrider_SpiderAmbushEnchantment, 3);
 								break;
 							case Collectible.Neutral.KingTogwaggle:
 								AddKnownCardId(gameState, NonCollectible.Neutral.KingTogwaggle_KingsRansomToken);
